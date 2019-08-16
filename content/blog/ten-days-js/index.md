@@ -8,9 +8,9 @@ date: '2019-07-16'
 
 Ten days of JS is a collection of 10 problems that can be done in any order. Problems range from easy to medium. You can find all the solutions by clicking on Repl.it - I added comments directly in the solution when I thought it was necessary.
 
-# 😃 Day 1 - Be happy
+## 😃 Day 1 - Be happy
 
-## Prompt
+### Prompt
 
 Write a function to determine if a number is "happy".
 
@@ -29,16 +29,16 @@ Explanation:
 1^2 + 0^2 + 0^2 = 1
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day1-happyNumber)
 
-# 0️⃣1️⃣ Day 2 - Let's count in bits
+## 0️⃣1️⃣ Day 2 - Let's count in bits
 
-#### Resources: 
+### Resources: 
 - :link: [Bits, Bytes, Building With Binary](https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa)
 - :link: [Hexes and Other Magical Numbers](https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee)
 
-## Prompt
+### Prompt
 
 Write a function that takes a decimal number and convert it to a binary number.
 
@@ -47,12 +47,12 @@ Input: 4
 Ouptut: 100
 ```
  
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day2-decimalToBinary)
  
-# ➡️ Day 3 - Move zero at then end
+## ➡️ Day 3 - Move zero at then end
 
-## Prompt
+### Prompt
 
 Write a function that moves all zero from an array to the end of the array. Return the array.
 
@@ -61,12 +61,12 @@ Input: [2, 3, 0, 4, 3, 0, 6, 7]
 Output: [2, 3, 4, 3, 6, 7, 0, 0]
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day3-moveZeroAtTheEnd)
 
-# ⏰ Day 4 - Around the clock
+## ⏰ Day 4 - Around the clock
 
-## Prompt
+### Prompt
 
 Given a time in string format and a number of minutes return the time given those minutes added to the base time.
 
@@ -78,12 +78,12 @@ Input: ('1:30', 30)
 Output: '2:00'
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day4-clockMinuteAdder)
 
-# ㊙️ Day 5 - Pig Latin
+## ㊙️ Day 5 - Pig Latin
 
-## Prompt
+### Prompt
 
 Translate the provided string to Pig Latin by following the rules below:
 - For words that begin with consonant sounds, the consonant before the initial vowel should be moved to the end of the word sequence and "ay" affixed. E.g "pig" = "igpay"
@@ -97,12 +97,12 @@ Input: 'pig'
 Output: 'igpay'
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day5-pigLatin)
 
-# ❗️ Day 6 - Factorial in 3 ways
+## ❗️ Day 6 - Factorial in 3 ways
 
-## Prompt
+### Prompt
 
 Write 3 different functions to calculate the factorial of a number.
 
@@ -116,12 +116,12 @@ Output: 24
 You could use the iterative approach, the recursive approach and memoization.
 </details>
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day6-factorial)
 
-# ❌ Day 7 - Intersection
+## ❌ Day 7 - Intersection
 
-## Prompt
+### Prompt
 
 Given two sorted arrays of numbers, return an array containing all values that appear in both arrays. The numbers in the resulting array may be returned in any order.
 
@@ -132,16 +132,16 @@ Input: [1,4,9,10,11] [2,3,4,5,8,10]
 Output: [4, 10]
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day7-intersection)
 
-# 🤘 Day 8 - String Permutation
+## 🤘 Day 8 - String Permutation
 
-## Resources
+### Resources
 - [Factorial and counting seat arrangements](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb/x9e81a4f98389efdf:combinatorics-precalc/v/factorial-and-counting-seat-arrangements)
 - [Generate all strings permutation](https://www.algodaily.com/challenges/generate-all-string-permutations)
 
-## Prompt
+### Prompt
 
 Given a string write a function to display all the possible permutations.
 
@@ -150,12 +150,12 @@ input: 'abc'
 output: 'abc', 'acb', 'cab', 'cba', 'bac', 'bca'
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day8-stringPermutation)
 
-# ➕ Day 9 - Range Sum
+## ➕ Day 9 - Range Sum
 
-## Prompt
+### Prompt
 
 Given an array of 2 numbers return the cumulative sum of the two numbers and all the numbers in between. Try to find 3 different solutions.
 
@@ -169,12 +169,12 @@ input: [1, 9]
 output: 45 (1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9)
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day9-RangeSum)
 
-# 💥 Day 10 - Let's Play
+## 💥 Day 10 - Let's Play
 
-## Prompt
+### Prompt
 
 We have a robot starting at position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if our robot ends up at (0, 0) after it completes its moves.
 
@@ -185,5 +185,5 @@ Input: ‘DU’
 Output: true
 ```
 
-## Solution
+### Solution
 [Repl.it](https://repl.it/@CelineChole1/day10-robotReturnToOrigin)
