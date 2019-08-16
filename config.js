@@ -2,19 +2,19 @@
 
 module.exports = {
   url: "https://developer-diary.netlify.com",
-  title: "Developer Diary",
-  tagline: "Autodidact developer and sometimes hoop-jumper",
-  copyright: "© 2019 willjw3, All rights reserved",
+  title: "Celine Tech",
+  tagline: "Web dev bit by bit",
+  copyright: "© Built by Céline Cholé",
   author: {
-    name: "WILL JAY",
+    name: "Céline Cholé",
     bio: "Self-taught web developer and whisky aficionado",
     contacts: {
-      linkedin: "https://www.linkedin.com/in/will-ward-65234a170/",
-      github: "https://github.com/willjw3",
+      linkedin: "",
+      github: "https://github.com/CelineChole",
       stackoverflow:
-        "https://stackoverflow.com/users/10262432/will-ward?tab=profile",
-      freecodecamp: "https://www.freecodecamp.org/willjw3",
-      twitter: "https://twitter.com/willjw3",
+        "",
+      freecodecamp: "3",
+      twitter: "",
     },
   },
   labels: [
