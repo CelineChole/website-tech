@@ -18,7 +18,8 @@ const SocialLinks = ({ contacts }) => {
                 </span>
             </a>
             <a className="text-light ml-4"
-                href={contacts.github}>
+                href={contacts.github}
+                >
                 <span title="GitHub">
                     <FaGithubSquare size={40} style={{ color: "light" }} />
                 </span>

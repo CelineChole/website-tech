@@ -9,7 +9,7 @@ module.exports = {
     name: "Céline Cholé",
     bio: "Self-taught web developer and whisky aficionado",
     contacts: {
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/celinechole/",
       github: "https://github.com/CelineChole",
       stackoverflow:
         "",
