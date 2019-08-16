@@ -12,13 +12,15 @@ const SocialLinks = ({ contacts }) => {
     return (
         <div className="social-links float-right mr-4">
             <a className="text-primary ml-4"
-                href={contacts.linkedin}>
+                href={contacts.linkedin}
+                target="_blank">
                 <span title="Linked In">
                     <FaLinkedin size={40} style={{ color: "primary" }} />
                 </span>
             </a>
             <a className="text-light ml-4"
                 href={contacts.github}
+                target="_blank"
                 >
                 <span title="GitHub">
                     <FaGithubSquare size={40} style={{ color: "light" }} />

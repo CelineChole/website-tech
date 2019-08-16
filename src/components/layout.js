@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
               paddingTop: 0,
             }}
           >
-            <main className="p-4">{children}</main>
+            <main className="main">{children}</main>
             <footer className="text-center">
               <hr/>
               <p className="d-inline">© {new Date().getFullYear()} <a className="text-info" href="https://github.com/CelineChole">Céline Cholé</a></p>
