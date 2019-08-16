@@ -4,7 +4,6 @@ tags: ["vscode"]
 published: true
 date: '2019-08-15'
 ---
-<br />
 
 ## 🧛Dracula Official theme
 [Dracula theme](https://draculatheme.com/visual-studio-code/)

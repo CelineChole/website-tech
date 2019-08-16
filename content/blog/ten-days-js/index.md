@@ -4,7 +4,6 @@ tags: ["javascript"]
 published: true
 date: '2019-07-16'
 ---
-<br />
 
 Ten days of JS is a collection of 10 problems that can be done in any order. Problems range from easy to medium. You can find all the solutions by clicking on Repl.it - I added comments directly in the solution when I thought it was necessary.
 
