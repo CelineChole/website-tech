@@ -20,25 +20,22 @@ const AboutPage = (props) => {
                     <SEO title="About" />
                     <div className="mt-3">
                         <h2 className="heading">About</h2>
-                        <p><i>Developer Diary is a Gatsby Starter blog template created with web developers in mind, but really, anyone can use it. It's totally usable right out of the box, but minimalist enough to be easily modifiable to suit your needs.</i></p>
+                        <p><i>I am working at Pursuit, a non profit organisation. This website is a collection of resources I created for students.</i></p>
                         <br />
                         <h4>Features</h4>
-                        <div>
-                            <span className="text-success d-inline-block" title="blazing">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Blazing fast, as you'd expect from a Gatsby site</p>
-                        </div>
                         <div>
                             <span className="text-success d-inline-block" title="tags">
                                 <FaCheckCircle size={26} style={{ color: "success" }} />
                             </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Tech tags designed for web developers</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">Filter by technologies using tags:</p>
                             <div className="ml-5">
                                 <TechTag tag="react" tech="React" name="DiReact" size={20} color="deepskyblue" />
+                                <TechTag tag="javascript" tech="JavaScript" name="DiJsBadge" size={20} color="yellow" />
+                                <TechTag tag="git" tech="Git" name="DiGitMerge" size={20} color="white" />
                                 <TechTag tag="nodejs" tech="Node.js" name="DiNodejsSmall" size={20} color="lightgreen" />
                                 <TechTag tag="html" tech="HTML" name="FaHtml5" size={20} color="darkorange" />
                                 <TechTag tag="css" tech="CSS" name="DiCss3Full" size={20} color="teal" />
+                                <TechTag tag="github" tech="GitHub" name="DiGithubBadge" size={20} color="white" />
                             </div>  
                         </div>
                         <div className="mt-4">
