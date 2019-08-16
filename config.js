@@ -2,8 +2,8 @@
 
 module.exports = {
   url: "https://developer-diary.netlify.com",
-  title: "Celine Tech",
-  tagline: "Web dev bit by bit",
+  title: "Web dev bit by bit",
+  tagline: "Always Be Coding",
   copyright: "© Built by Céline Cholé",
   author: {
     name: "Céline Cholé",
@@ -13,7 +13,7 @@ module.exports = {
       github: "https://github.com/CelineChole",
       stackoverflow:
         "",
-      freecodecamp: "3",
+      freecodecamp: "",
       twitter: "",
     },
   },
@@ -61,18 +61,11 @@ module.exports = {
       color: "deepskyblue",
     },
     {
-      tag: "ruby",
-      tech: "Ruby",
-      name: "DiRuby",
+      tag: "firebase",
+      tech: "Firebase",
+      name: "DiFirebase",
       size: 20,
-      color: "crimson",
-    },
-    {
-      tag: "java",
-      tech: "Java",
-      name: "FaJava",
-      size: 20,
-      color: "wheat",
+      color: "orange"
     },
     {
       tag: "angular",
@@ -89,13 +82,6 @@ module.exports = {
       color: "darkorange",
     },
     {
-      tag: "php",
-      tech: "php",
-      name: "DiPhp",
-      size: 20,
-      color: "violet",
-    },
-    {
       tag: "mongodb",
       tech: "MongoDB",
       name: "DiMongodb",
@@ -108,6 +94,20 @@ module.exports = {
       name: "DiVisualstudio",
       size: 20,
       color: "deepskyblue",
+    },
+    {
+      tag: "github",
+      tech: "GitHub",
+      name: "DiGithubBadge",
+      size: 20,
+      color: "white",
+    },
+    {
+      tag: "bootstrap",
+      tech: "Bootstrap",
+      name: "DiBootstrap",
+      size: 20,
+      color: "purple"
     },
   ],
 }
