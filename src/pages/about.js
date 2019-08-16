@@ -20,7 +20,7 @@ const AboutPage = props => {
           <SEO title="About" />
           <div className="mt-3">
             <h2 className="heading">About</h2>
-            <p>
+            <div>
               <p>
                 <i>I am Céline, a business analyst turned engineer.</i>
               </p>
@@ -49,7 +49,7 @@ const AboutPage = props => {
                 there are any Spanish speakers. :)
                 <br />I am also a yoga-addict, practicing nearly every day.
               </p>
-            </p>
+            </div>
             <br />
             <h4>Features</h4>
             <div>
@@ -109,32 +109,14 @@ const AboutPage = props => {
                   size={20}
                   color="white"
                 />
+                <TechTag
+                  tag="firebase"
+                  tech="Firebase"
+                  name="DiFirebase"
+                  size={20}
+                  color="orange"
+                />
               </div>
-            </div>
-            <div className="mt-4">
-              <span className="text-success d-inline-block" title="prism">
-                <FaCheckCircle size={26} style={{ color: "success" }} />
-              </span>
-              <p className="d-inline-block ml-3 w-75 align-top">
-                Includes Prism for code block styling in markdown files
-              </p>
-            </div>
-            <div>
-              <span className="text-success d-inline-block" title="icons">
-                <FaCheckCircle size={26} style={{ color: "success" }} />
-              </span>
-              <p className="d-inline-block ml-3 w-75 align-top">
-                Developer-relevant social-media icon links including GitHub,
-                Stack Overflow and freeCodeCamp
-              </p>
-            </div>
-            <div>
-              <span className="text-success d-inline-block" title="mobile">
-                <FaCheckCircle size={26} style={{ color: "success" }} />
-              </span>
-              <p className="d-inline-block ml-3 w-75 align-top">
-                Mobile responsive, of course
-              </p>
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `graphql`]} />
+      <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `teaching`]} />
       <div className="index-main">
         <div className="sidebar px-4 py-2">
           <Sidebar />
@@ -87,7 +87,7 @@ export const pageQuery = graphql`
              }
            }
            allMarkdownRemark(
-             limit: 3
+             limit: 5
              sort: { fields: [frontmatter___date], order: DESC }
              filter: { frontmatter: { published: { eq: true } } }
            ) {
