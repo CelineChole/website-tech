@@ -35,7 +35,8 @@ const AboutPage = props => {
                 I am now working in a non-profit organisation as a web
                 instructor.
                 <br />
-                Web deb bit by bit is a collection of resources I created to help students. 
+                Web dev bit by bit is a collection of resources I created to
+                help students.
               </p>
               <p>A bit more about me:</p>
               <p>
@@ -51,7 +52,7 @@ const AboutPage = props => {
               </p>
             </div>
             <br />
-            <h4>Features</h4>
+            <h4>Navigation</h4>
             <div>
               <span className="text-success d-inline-block" title="tags">
                 <FaCheckCircle size={26} style={{ color: "success" }} />

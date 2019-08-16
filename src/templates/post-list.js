@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.css"
 import "../pages/index.css"
+import PostExcerptList from "../components/PostExcerptList"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -38,31 +39,7 @@ const PostList = (props) => {
                     <Sidebar />
                 </div>
                 <div className="post-list-main">
-                    {posts.map((post) => {
-                        const tags = post.node.frontmatter.tags
-                        return (
-                            <div key={post.node.id} className="container mt-5">
-                                <Link
-                                    to={post.node.fields.slug}
-                                    className="text-dark"
-                                >
-                                    <h2 className="title">{post.node.frontmatter.title}</h2>
-                                </Link>
-                                <small className="d-block text-info"><i>Posted on {post.node.frontmatter.date}</i>
-                                </small>
-                                <p className="mt-3 d-inline">{post.node.excerpt}</p>
-                                <Link
-                                    to={post.node.fields.slug}
-                                    className="text-primary"
-                                >
-                                    <small className="d-inline-block ml-3"> Read full post</small>
-                                </Link>
-                                <div className="d-block">
-                                    {getTechTags(tags)}
-                                </div>
-                            </div>
-                        )
-                    })}
+                    <PostExcerptList posts={posts} getTechTags={getTechTags} />
                     <div className="text-center mt-4">
                         {!isFirst && (
                             <Link to={prevPage} rel="prev" style={{ textDecoration: `none` }}>
