@@ -2,7 +2,7 @@
 
 module.exports = {
   url: "https://developer-diary.netlify.com",
-  title: "Web Dev Bit By Bit",
+  title: "Web Dev Bit by Bit",
   tagline: "Always Be Coding",
   copyright: "© Built by Céline Cholé",
   author: {

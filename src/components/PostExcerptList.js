@@ -15,6 +15,7 @@ const PostExcerptList = ({ posts, getTechTags }) => {
               <i>Posted on {post.node.frontmatter.date}</i>
             </small>
             <p className="mt-3 d-inline">{post.node.excerpt}</p>
+            <br />
             <Link to={post.node.fields.slug} className="text-primary">
               <div className="d-inline-block mt-1"> Read full post</div>
             </Link>
