@@ -625,8 +625,17 @@ pre tt:after {
   padding: 1.5em;
 }
 
+.about-mobile-links {
+  display: none;
+}
+
 @media only screen and (max-width: 850px) {
   .main {
     padding: 0;
   }
+  .about-mobile-links {
+    display: inline-block;
+  }
 }
+
+
