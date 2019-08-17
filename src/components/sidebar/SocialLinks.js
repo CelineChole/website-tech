@@ -26,7 +26,7 @@ const SocialLinks = ({ contacts }) => {
                     <FaGithubSquare size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-secondary p-2"
+            {/* <a className="text-secondary p-2"
                 href={contacts.stackoverflow}>
                 <span title="Stack Overflow">
                     <FaStackOverflow size={26} style={{ color: "secondary" }} />
@@ -43,7 +43,7 @@ const SocialLinks = ({ contacts }) => {
                 <span title="Twitter">
                     <FaTwitterSquare size={26} style={{ color: "secondary" }} />
                 </span>
-            </a>
+            </a> */}
         </div>
     )
 }

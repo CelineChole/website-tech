@@ -5,9 +5,10 @@ import { FaCheckCircle } from "react-icons/fa"
 import "./index.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
-import TechTag from "../components/tags/TechTag"
+import AboutMobileLinks from "../components/AboutMobileLinks"
 
-const AboutPage = props => {
+const AboutPage = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <SEO title="About" />
@@ -22,11 +23,14 @@ const AboutPage = props => {
             <h2 className="heading">About</h2>
             <div className="mt-4">
               <p>
-                <i>I am Céline, a full stack web developer that completed a tour of duty in the Intellectual Property field as an Excel-wielding business analyst.</i>
+                <i>
+                  I am Céline, a full stack web developer that completed a tour
+                  of duty in the Intellectual Property field as an
+                  Excel-wielding business analyst.
+                </i>
               </p>
               <p>
-                I am working in a non-profit organisation as a web
-                instructor.
+                I am working in a non-profit organisation as a web instructor.
                 <br />
                 Web dev bit by bit is a collection of resources I created to
                 help students.
@@ -54,8 +58,22 @@ const AboutPage = props => {
           </div>
         </div>
       </div>
+        <AboutMobileLinks contacts={data.site.siteMetadata.contacts} />
     </Layout>
   )
 }
+
+export const pageQuery = graphql`
+  query AboutQuery {
+    site {
+      siteMetadata {
+        contacts {
+          linkedin
+          github
+        }
+      }
+    }
+  }
+`
 
 export default AboutPage
