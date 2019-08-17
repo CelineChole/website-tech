@@ -41,7 +41,7 @@ const BlogPost = (props) => {
           <div className="mt-3">
             <h1 className="heading">{post.frontmatter.title}</h1>
             <small><i>Published on </i> {post.frontmatter.date}</small>
-            <div className="" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="mt-4" dangerouslySetInnerHTML={{ __html: post.html }} />
             <div className="d-block">
               {getTechTags(tags)}
             </div>
