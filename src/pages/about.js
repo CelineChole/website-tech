@@ -20,9 +20,16 @@ const AboutPage = props => {
           <SEO title="About" />
           <div className="mt-3">
             <h2 className="heading">About</h2>
-            <div>
+            <div className="mt-4">
               <p>
-                <i>I am Céline, a business analyst turned engineer.</i>
+                <i>I am Céline, a full stack web developer that completed a tour of duty in the Intellectual Property field as an Excel-wielding business analyst.</i>
+              </p>
+              <p>
+                I am working in a non-profit organisation as a web
+                instructor.
+                <br />
+                Web dev bit by bit is a collection of resources I created to
+                help students.
               </p>
               <p>
                 For the past 5 years I worked in the Intellectual Property
@@ -30,13 +37,6 @@ const AboutPage = props => {
                 Analyst role. I relocated to the US from London and took the
                 opportunity to reimagine my career and work in the tech
                 industry.
-              </p>
-              <p>
-                I am now working in a non-profit organisation as a web
-                instructor.
-                <br />
-                Web dev bit by bit is a collection of resources I created to
-                help students.
               </p>
               <p>A bit more about me:</p>
               <p>
