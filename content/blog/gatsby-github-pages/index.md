@@ -1,5 +1,5 @@
 ---
-title: 'Gatsby and GitHub Pages, how to deploy'
+title: 'Gatsby and GitHub Pages, how to deploy your static site'
 tags: ["javascript", "github", ]
 published: false
 date: '2019-08-30'
