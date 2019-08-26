@@ -11,6 +11,11 @@ The first step is to buy a domain name. The below tutorial will be for NameCheap
 
 ## Configuring the GitHub Pages source branch
 
+## Deploying to the root subdomain and using a custom domain
+
+Don’t forget to add your [CNAME](https://help.github.com/en/articles/troubleshooting-custom-domains#github-repository-setup-errors) file to the `static` directory.
+
+
 
 
 
