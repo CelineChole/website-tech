@@ -12,7 +12,6 @@ The first step is to buy a domain name. The below tutorial will be for NameCheap
 
 ## Configuring the GitHub Pages source branch
 
-<<<<<<< HEAD
 - Navigate to your page repository.
 - Click on Settings.
 - In the GitHub Pages section, use the Source drop-down to select master.
@@ -25,13 +24,11 @@ The first step is to buy a domain name. The below tutorial will be for NameCheap
 ## Using a deploy script
 
 A custom script in your package.json makes it easier to build and deploy your site.
-=======
 ## Deploying to the root subdomain and using a custom domain
 
 Don’t forget to add your [CNAME](https://help.github.com/en/articles/troubleshooting-custom-domains#github-repository-setup-errors) file to the `static` directory.
 
 
->>>>>>> 05a93c89f845f81e47569648f4b3d7aef7894ca0
 
 ```js
 "scripts": {
