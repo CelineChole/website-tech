@@ -516,6 +516,7 @@ ol li {
 }
 ul li {
   padding-left: 0;
+  font-family: railway;
 }
 li > ol {
   margin-left: 1.45rem;
