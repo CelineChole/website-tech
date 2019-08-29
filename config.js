@@ -7,7 +7,7 @@ module.exports = {
   copyright: "© Built by Céline Cholé",
   author: {
     name: "Céline Cholé",
-    bio: "Self-taught web developer and whisky aficionado",
+    bio: "Full Stack Web Instructor in a non-profit organisation promoting more diversity in the tech world",
     contacts: {
       linkedin: "https://www.linkedin.com/in/celinechole/",
       github: "https://github.com/CelineChole",
