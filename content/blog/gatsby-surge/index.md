@@ -1,8 +1,8 @@
 ---
 title: 'How to deploy your Gatsby site with Surge'
 tags: ["javascript"]
-published: false
-date: '2019-08-30'
+published: true
+date: '2019-08-31'
 ---
 
 [Gatsby](https://www.gatsbyjs.org/) is a free and open source framework based on React, it is the perfect tool to build a blog or portfolio. [Surge](https://surge.sh/) is a cloud platform for hosting static websites, which is extremely simple to use and lets you deploy in one command. So far it is the easiest way to deploy a static site that I know.
