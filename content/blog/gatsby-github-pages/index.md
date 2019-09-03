@@ -24,7 +24,7 @@ A custom script in your package.json makes it easier to build and deploy your si
 
 ```js
 "scripts": {
-    "build": "gatsby build"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
 ```
 
