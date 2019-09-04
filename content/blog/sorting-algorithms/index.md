@@ -59,5 +59,6 @@ JS built-in sort method
 ## Resources
 
 [Computer Science Fundamentals](https://brilliant.org/courses/computer-science-essentials/)
+[Sorting algorithms Cheat Sheet](https://www.interviewcake.com/sorting-algorithm-cheat-sheet)
 
 
