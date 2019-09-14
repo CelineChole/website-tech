@@ -7,8 +7,6 @@ date: '2019-08-30'
 
 Gatsby is a free and open source framework based on React, it is the perfect tool to build a blog or portfolio. You can find below the steps to deploy your site to the root subdomain: username.github.io, and then configured to use a custom domain.
 
-The first step is to buy a domain name. The below tutorial will be for NameCheap.
-
 ## Installing the gh-pages package
 
 `npm install gh-pages --save-dev` is the easiest way to push a Gatsby website to GitHub pages.
