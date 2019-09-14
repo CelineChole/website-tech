@@ -1,8 +1,8 @@
 ---
 title: 'Gatsby and GitHub Pages, how to deploy your static site to your custom domain'
 tags: ["javascript", "github", ]
-published: false
-date: '2019-08-30'
+published: true
+date: '2019-09-14'
 ---
 
 Gatsby is a free and open source framework based on React, it is the perfect tool to build a blog or portfolio. You can find below the steps to deploy your site to the root subdomain: username.github.io, and then configured to use a custom domain.
