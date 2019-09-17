@@ -5,7 +5,7 @@ published: false
 date: '2019-09-30'
 ---
 
-I had the opportunity to attend React Day in New-York, here is an overview of the conference. 
+I had the opportunity to attend React Day in New-York, here is some of my notes. 
 
 ## React Hooks Tips and Tricks
 
@@ -26,6 +26,40 @@ Custom hooks can be used inside other custom hooks.
 
 ## Full Stack React in the Era of Serverless Computing
 #### Nader Dabit - Amazon Web Services
+
+[Full-Stack Development in the Era of Serverless Computing](https://medium.com/@dabit3/full-stack-development-in-the-era-of-serverless-computing-c1e49bba8580)
+
+Talk re serverless technologies are changing what it means to be a full-stack developer.
+
+Because of the rise of SPAs, more complex data concerns, multiple device targets and increased expectations of user experience, client-side development has gotten more complex over the past decade or so. Increase expectation for front-end developer.
+
+Evolution of computing over the past few years:
+- On Premises
+- Cloud
+- Serverless computing: FaaS (Function as a Service) + BaaS (Backend as a Service)
+
+    Serverless becomes easier
+    Serverless becomes cheaper than serverful
+    Serverful becoming relatively less important
+    Serverless becomes the default computing paradigm of the cloud era
+
+- What's next? Serviceful Serverless
+    Service full service
+    No server operations
+    Cordless
+    No need to manage uptime
+    Scales seemlessly...
+ 
+A few examples of serviceful services include Auth0 / Amazon Cognito(managed authentication), Algolia (managed search), Contentful (content infrastructure), AWS AppSync / Cloud Firestore (managed API services), Amazon Lex / Rekognition / Textract (machine learning services), and Cloudinary (managed image & video hosting service).
+ 
+Benefits
+
+- Front end developers move further up the stack
+- Increase developer efficiency and velocity
+- Decreased complexity
+- More secure, reliable, scalable
+
+Team organized by feature rather than platform or stack.
 
 ## Building a typed and code split Redux store
 #### Matthew Gerstman - Dropbox
