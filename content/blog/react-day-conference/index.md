@@ -8,6 +8,7 @@ date: '2019-09-30'
 I had the opportunity to attend React Day in New-York, here is some of my notes. 
 
 ## React Hooks Tips and Tricks
+#### Donavon West - American Express
 
 Hooks are included into React, it is also possible to create custom hooks. A lot already exist online and you should take the benefit of them:
 - [react-hooks-helper](https://github.com/revelcw/react-hooks-helper) is a custom React Hooks library that gives you custom hooks for your code.
@@ -146,3 +147,14 @@ To know how fast your page load, use [Lighthouse](https://developers.google.com/
 
 https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
 
+## Testing into a better user experience
+#### Ryan Burgess - Netflix
+
+Importance of dealing with A/B testing. Don't really on the HIPPO - Highest Paid Person Opinion.
+
+Some tools: 
+
+- [Google Analytics Experiments](https://developers.google.com/analytics/devguides/collection/analyticsjs/experiments)
+- [Adobe target](adobe.com/marketing/target.html)
+
+Difficulty to deal with bot traffic. 
