@@ -44,16 +44,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-responsive-iframe`,
           {
-            resolve: `gatsby-remark-prismjs`,
+            resolve: `gatsby-remark-images`,
             options: {
-              classPrefix: "language-",
-              inlineCodeMarker: null,
-              aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
+              maxWidth: 590,
             }
-          }, `gatsby-remark-responsive-iframe`,
+          },
+          `gatsby-remark-copy-linked-files`
         ],
       },
     },
