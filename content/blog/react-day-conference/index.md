@@ -38,10 +38,10 @@ Evolution of computing over the past few years:
 - Cloud
 - Serverless computing: FaaS (Function as a Service) + BaaS (Backend as a Service)
 
-    Serverless becomes easier
-    Serverless becomes cheaper than serverful
-    Serverful becoming relatively less important
-    Serverless becomes the default computing paradigm of the cloud era
+    - Serverless becomes easier
+    - Serverless becomes cheaper than serverful
+    - Serverful becoming relatively less important
+    - Serverless becomes the default computing paradigm of - the cloud era
 
 - What's next? Serviceful Serverless
     Service full service
@@ -50,7 +50,7 @@ Evolution of computing over the past few years:
     No need to manage uptime
     Scales seemlessly...
  
-A few examples of serviceful services include Auth0 / Amazon Cognito(managed authentication), Algolia (managed search), Contentful (content infrastructure), AWS AppSync / Cloud Firestore (managed API services), Amazon Lex / Rekognition / Textract (machine learning services), and Cloudinary (managed image & video hosting service).
+A few examples of serviceful services include Auth0 / Amazon Cognito(managed authentication), Algolia (managed search), Contentful (content infrastructure), AWS AppSync / Cloud Firestore (managed API services), Amazon Lex / Rekognition and Cloudinary (managed image & video hosting service).
  
 Benefits
 
@@ -61,10 +61,83 @@ Benefits
 
 Team organized by feature rather than platform or stack.
 
+## A Field Guide To Architecting Complex SPAs in React
+#### Phips Peter - Asana
+
+Importance of TypeScript
+
+Talking about performance and lazy loading - refered to the article [idle until urgent](https://philipwalton.com/articles/idle-until-urgent/).
+
+Code split: one of the most compelling features of webpack. This feature allows you to split your code into various bundles which can then be loaded on demand or in parallel.
+
+[CodeMod](https://github.com/facebook/codemod) is a tool developed by Facebook to help with the refactor of large-scale codebases.
+
 ## Building a typed and code split Redux store
 #### Matthew Gerstman - Dropbox
 
 [Slides: Building a typeface code split react-redux application](https://slides.slytherin.dev/#0)
+
+Code split : many small lazy loaded bundles
+Use React.lazy and Suspense - not yet available for server-side rendering
+
+[Code-Splitting](https://reactjs.org/docs/code-splitting.html)
+
+Discriminated Unions and [TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html#discriminated-unions)
+
+Generics (typeScript stuff)
+
+[ReplaceReducer](https://redux.js.org/api/store#replacereducernextreducer) replaces the reducer currently used by the store to calculate the state. You might need this if your app implements code splitting, and you want to load some of the reducers dynamically. 
+
+As your app grows more complex, you'll want to split your reducing function into separate functions, each managing independent parts of the state. The [CombineReducer](https://redux.js.org/api/combinereducers) helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore.
+
+## Frontend performance from a designer’s perspective
+#### Didrik Steen Hegna - Crystallize
+
+Design vs performance
+
+Importance of performance:
+- Customers
+- Google loves you
+- Increase conversion
+ 
+Google fonts: you can only fetch the characters you need using [unicode-range subsetting](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization). 
+
+Best format to add photos to a site is WebP - not supported by all browsers yet.
+
+Optimize photos by defining the size and the source with different resolution depending on the screen.
+
+Put media in source tag if you want display the picture differently.
+
+```js
+<picture>
+  <source
+    sizes='50wm'
+    srcSet='
+      /static/.../... .webp 250w,
+      /static/.../... .webp 384w
+      /static/.../... .webp 512w
+      /static/.../... .webp 1200w'
+    type='image/webp'
+  />
+  <source
+    sizes='50wm'
+    srcSet='
+      /static/.../... .jpg 250w,
+      /static/.../... .jpg 384w
+      /static/.../... .jpg 512w
+      /static/.../... .jpg 1200w'
+    type='image/jpg'
+  />
+  <img src='/static/.../... .jpg' alt='photo' />
+</picture>
+```
+
+Loading images, consider lazy loading - it doesn't work on mobile yet
+ 
+[bundlephobia.com](https://bundlephobia.com/) is a great tool to find the impact of bundles on your application.
+
+To know how fast your page load, use [Lighthouse](https://developers.google.com/web/tools/lighthouse), an automated tool for improving the quality of web pages.
+
 
 ## Accessibility-flavored React components make your design system delicious!
 #### Kathleen McMahon - O’Reilly Media
@@ -72,3 +145,4 @@ Team organized by feature rather than platform or stack.
 [Slides: accessibility flavored React components make your design system delicious](https://noti.st/resource11/9e8JKR/accessibility-flavored-react-components-make-your-design-system-delicious)
 
 https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
+
