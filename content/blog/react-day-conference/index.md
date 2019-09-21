@@ -157,4 +157,4 @@ Some tools:
 - [Google Analytics Experiments](https://developers.google.com/analytics/devguides/collection/analyticsjs/experiments)
 - [Adobe target](adobe.com/marketing/target.html)
 
-Difficulty to deal with bot traffic. 
+Difficulty to deal with bot traffic.
