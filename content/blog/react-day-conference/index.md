@@ -150,11 +150,11 @@ https://www.sitepoint.com/how-to-use-aria-effectively-with-html5/
 ## Testing into a better user experience
 #### Ryan Burgess - Netflix
 
-Importance of dealing with A/B testing. Don't really on the HIPPO - Highest Paid Person Opinion.
+Importance of dealing with A/B testing. Don't rely on the HIPPO - Highest Paid Person's Opinion.
 
 Some tools: 
 
 - [Google Analytics Experiments](https://developers.google.com/analytics/devguides/collection/analyticsjs/experiments)
 - [Adobe target](adobe.com/marketing/target.html)
 
-Difficulty to deal with bot traffic.
+I really enjoyed this conference and learned a lot. One thing  I will particularly pay attention to is images and speed. Google Lighthouse is a tool I just began to use and that will definitely be a great additiion to my toolbox for all my future projects. 
