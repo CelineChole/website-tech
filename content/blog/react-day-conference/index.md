@@ -73,7 +73,7 @@ Code split: one of the most compelling features of webpack. This feature allows 
 
 [CodeMod](https://github.com/facebook/codemod) is a tool developed by Facebook to help with the refactor of large-scale codebases.
 
-## Building a typed and code split Redux store
+## Building a typesafe and code split Redux store
 #### Matthew Gerstman - Dropbox
 
 [Slides: Building a typeface code split react-redux application](https://slides.slytherin.dev/#0)
