@@ -5,7 +5,7 @@ published: false
 date: '2019-09-30'
 ---
 
-I had the opportunity to attend React Day in New-York, here is some of my notes. 
+I had the opportunity to attend [React Day in New-York](https://reactnewyork.com/), here is some of my notes. 
 
 ## React Hooks Tips and Tricks
 #### Donavon West - American Express
@@ -14,7 +14,7 @@ Hooks are included into React, it is also possible to create custom hooks. A lot
 - [react-hooks-helper](https://github.com/revelcw/react-hooks-helper) is a custom React Hooks library that gives you custom hooks for your code.
 - [Collection of React Hooks](https://nikgraf.github.io/react-hooks/) is another React Hooks library
 
-`useStep` can be used to create a carousel.
+[`useStep`](https://github.com/revelcw/react-hooks-helper#usestep) can be used to create a carousel.
 
 [`use-dark-mode`](https://github.com/donavon/use-dark-mode) can be used to easily switch an app to the night mode.
 
@@ -30,7 +30,7 @@ Custom hooks can be used inside other custom hooks.
 
 [Full-Stack Development in the Era of Serverless Computing](https://medium.com/@dabit3/full-stack-development-in-the-era-of-serverless-computing-c1e49bba8580)
 
-Talk re serverless technologies are changing what it means to be a full-stack developer.
+Talk regarding serverless technologies are changing what it means to be a full-stack developer.
 
 Because of the rise of SPAs, more complex data concerns, multiple device targets and increased expectations of user experience, client-side development has gotten more complex over the past decade or so. Increase expectation for front-end developer.
 
@@ -45,9 +45,9 @@ Evolution of computing over the past few years:
     - Serverless becomes the default computing paradigm of - the cloud era
 
 - What's next? Serviceful Serverless
-    Service full service
+    Serviceful service - it is a new term that defined a set of services that do not require any server operations.
     No server operations
-    Cordless
+    Codeless - less code in your application because most of the code is managed by a third party. 
     No need to manage uptime
     Scales seemlessly...
  
@@ -67,7 +67,7 @@ Team organized by feature rather than platform or stack.
 
 Importance of TypeScript
 
-Talking about performance and lazy loading - refered to the article [idle until urgent](https://philipwalton.com/articles/idle-until-urgent/).
+Talking about performance and lazy loading - referred to the article [idle until urgent](https://philipwalton.com/articles/idle-until-urgent/).
 
 Code split: one of the most compelling features of webpack. This feature allows you to split your code into various bundles which can then be loaded on demand or in parallel.
 
