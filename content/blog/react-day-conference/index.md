@@ -1,8 +1,8 @@
 ---
 title: 'React Day New York'
 tags: 
-published: false
-date: '2019-09-30'
+published: true
+date: '2019-09-25'
 ---
 
 I had the opportunity to attend [React Day in New-York](https://reactnewyork.com/), here are some of my notes. 
