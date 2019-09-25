@@ -5,7 +5,7 @@ published: false
 date: '2019-09-30'
 ---
 
-I had the opportunity to attend [React Day in New-York](https://reactnewyork.com/), here is some of my notes. 
+I had the opportunity to attend [React Day in New-York](https://reactnewyork.com/), here are some of my notes. 
 
 ## React Hooks Tips and Tricks
 #### Donavon West - American Express
@@ -32,7 +32,7 @@ Custom hooks can be used inside other custom hooks.
 
 Talk regarding serverless technologies are changing what it means to be a full-stack developer.
 
-Because of the rise of SPAs, more complex data concerns, multiple device targets and increased expectations of user experience, client-side development has gotten more complex over the past decade or so. Increase expectation for front-end developer.
+Because of the rise of SPAs, more complex data concerns, multiple device targets and increased expectations of user experience, client-side development has gotten more complex over the past decade or so. Increased expectations for front-end developers.
 
 Evolution of computing over the past few years:
 - On Premises
@@ -42,7 +42,7 @@ Evolution of computing over the past few years:
     - Serverless becomes easier
     - Serverless becomes cheaper than serverful
     - Serverful becoming relatively less important
-    - Serverless becomes the default computing paradigm of - the cloud era
+    - Serverless becomes the default computing paradigm of the cloud era
 
 - What's next? Serviceful Serverless
     Serviceful service - it is a new term that defined a set of services that do not require any server operations.
@@ -76,7 +76,7 @@ Code split: one of the most compelling features of webpack. This feature allows 
 ## Building a typesafe and code split Redux store
 #### Matthew Gerstman - Dropbox
 
-[Slides: Building a typeface code split react-redux application](https://slides.slytherin.dev/#0)
+[Slides: Building a typesafe code split react-redux application](https://slides.slytherin.dev/#0)
 
 Code split : many small lazy loaded bundles
 Use React.lazy and Suspense - not yet available for server-side rendering
@@ -155,6 +155,6 @@ Importance of dealing with A/B testing. Don't rely on the HIPPO - Highest Paid P
 Some tools: 
 
 - [Google Analytics Experiments](https://developers.google.com/analytics/devguides/collection/analyticsjs/experiments)
-- [Adobe target](adobe.com/marketing/target.html)
+- [Adobe target](https://www.adobe.com/marketing/target.html)
 
-I really enjoyed this conference and learned a lot. One thing  I will particularly pay attention to is images and speed. Google Lighthouse is a tool I just began to use and that will definitely be a great additiion to my toolbox for all my future projects. 
+I really enjoyed this conference and learned a lot. One thing  I will particularly pay attention to is images and speed. Google Lighthouse is a tool I just started to use and that will definitely be a great aditiion to my toolbox for all my future projects. 
