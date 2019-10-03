@@ -1,6 +1,6 @@
 ---
 title: 'React Day New York'
-tags: 
+tags: ['react']
 published: true
 date: '2019-09-25'
 ---
