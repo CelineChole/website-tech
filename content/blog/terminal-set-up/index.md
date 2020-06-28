@@ -1,26 +1,14 @@
 ---
 title: "Terminal set-up"
-tags: ["bootstrap"]
+tags: ["terminal"]
 published: true
 date: "2020-05-16"
 ---
 
 ## My terminal set-up
 
-- https://ohmyz.sh/
+- I am using https://ohmyz.sh/ for the shell configuration.
 - You can customize it going to the file `~/.zshrc` and changing the theme, I am using is 'avit'
-- https://draculatheme.com/terminal/: `git clone https://github.com/dracula/terminal-app.git`
-- my git colors
-
-```
-color.ui=true
-color.branch=true
-color.status.meta=yellow black bold
-color.diff.meta=blue black bold
-color.diff.changed=magenta normal bold
-color.status.changed=magenta
-color.status.untracked=yellow
-```
 
 ## Git color
 
@@ -33,9 +21,21 @@ Each `git config color.status.<something>` takes up to 3 arguments:
 - Background color: normal, black, red, green, yellow, blue, magenta, cyan and white;
 - Style attribute: bold, dim, ul, blink and reverse.
 
+My git colors
+
+```
+color.ui=true
+color.branch=true
+color.status.meta=yellow black bold
+color.diff.meta=blue black bold
+color.diff.changed=magenta normal bold
+color.status.changed=magenta
+color.status.untracked=yellow
+```
+
 ## Status color
 
-![Terminal screenshot](../assets/terminal-screenshot.png)
+![Terminal screenshot](./terminal-screenshot.png)
 
 To get this output you need the below setup
 
