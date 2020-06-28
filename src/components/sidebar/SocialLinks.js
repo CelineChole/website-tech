@@ -19,7 +19,11 @@ const SocialLinks = ({ contacts }) => {
           <FaGithubSquare size={26} style={{ color: "secondary" }} />
         </span>
       </a>
-      <a className="text-secondary p-2" href={contacts.portfolio}>
+      <a
+        className="text-secondary p-2"
+        href={contacts.portfolio}
+        target="_blank"
+      >
         <span title="Portfolio">
           <FaUser size={26} style={{ color: "secondary" }} />
         </span>
