@@ -1,14 +1,13 @@
 "use strict"
 
 module.exports = {
-  url: "https://developer-diary.netlify.com",
+  url: "http://celine.tech",
   title: "Web Dev Bit by Bit",
   tagline: "Always Be Coding",
   copyright: "© Built by Céline Cholé",
   author: {
     name: "Céline Cholé",
-    bio:
-      "Full Stack Web Instructor in a non-profit organisation promoting more diversity in the tech world",
+    bio: "Full Stack Web Instructor",
     contacts: {
       linkedin: "https://www.linkedin.com/in/celinechole/",
       github: "https://github.com/CelineChole",

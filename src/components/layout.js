@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
                 <a
                   className="text-info"
                   target="_blank"
-                  href="https://github.com/CelineChole"
+                  href="https://celinechole.com/"
                 >
                   Céline Cholé
                 </a>

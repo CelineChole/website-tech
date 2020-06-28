@@ -30,17 +30,16 @@ const AboutPage = ({ data }) => {
                 </i>
               </p>
               <p>
-                I am working in a non-profit organisation as a web instructor.
+                I work in a bootcamp as a web instructor.
                 <br />
                 Web dev bit by bit is a collection of resources I created to
                 help students.
               </p>
               <p>
                 For the past 5 years I worked in the Intellectual Property
-                industry as a Project Manager first and moved to a Business
-                Analyst role. I relocated to the US from London and took the
-                opportunity to reimagine my career and work in the tech
-                industry.
+                industry as a Project Manager and later as a Business Analyst. I
+                relocated to the US from London and took the opportunity to
+                reimagine my career and work in the tech industry.
               </p>
               <p>A bit more about me:</p>
               <p>
@@ -50,9 +49,16 @@ const AboutPage = ({ data }) => {
                 I also love cooking (this must be my French heritage),
                 especially baking.
                 <br />
-                I am learning Spanish and would be really happy to practice if
-                there are any Spanish speakers. :)
-                <br />I am also a yoga-addict, practicing nearly every day.
+                <br />I am also a yoga-addict, practicing nearly every day. If
+                you would like some inspiration to practice, I created a library
+                grouping YouTube videos I have been using:{" "}
+                <a
+                  className="text-info"
+                  target="_blank"
+                  href="https://yogilibrary.com/"
+                >
+                  Yogi Library
+                </a>
               </p>
             </div>
           </div>
