@@ -11,7 +11,7 @@ module.exports = {
     contacts: {
       linkedin: "https://www.linkedin.com/in/celinechole/",
       github: "https://github.com/CelineChole",
-      stackoverflow: "",
+      portfolio: "https://celinechole.com/",
       freecodecamp: "",
       twitter: "",
     },
