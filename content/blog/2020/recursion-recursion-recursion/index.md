@@ -1,11 +1,9 @@
 ---
-title: "Tech resources"
-tags: ["javascript", "react"]
-published: false
-date: "2019-08-16"
+title: "Recursion Recursion Recursion"
+tags: ["javascript"]
+published: true
+date: "2020-01-10"
 ---
-
-# Recursion Recursion Recursion
 
 ## A bit of ethymology
 
@@ -52,7 +50,8 @@ factorial(2) // returns 2 * factorial(1)
 factorial(1) // returns 1 * factorial(0)
 factorial(0) // returns 1
 
-// Now that we've hit our base case, our function will return in order from inner to outer:
+// Now that we've hit our base case,
+// our function will return in order from inner to outer:
 
 factorial(0) // returns 1                 => 1
 factorial(1) // returns 1 * factorial(0)  => 1 * 1
@@ -253,9 +252,9 @@ In general, you should only use recursion if it would be significantly simpler t
 
 ## Resources
 
-:tv: [YouTube: Recursion - Part 7 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=k7-N8R0-KY4)
+📺 [YouTube: Recursion - Part 7 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=k7-N8R0-KY4)
 
-:tv:[The Coding Train, Coding Challenge - Recursion](https://www.youtube.com/watch?v=jPsZwrV9ld0)
+📺 [The Coding Train, Coding Challenge - Recursion](https://www.youtube.com/watch?v=jPsZwrV9ld0)
 
 [Learning to think with recursion, part 1](https://medium.com/@daniel.oliver.king/getting-started-with-recursion-f89f57c5b60e)
 
