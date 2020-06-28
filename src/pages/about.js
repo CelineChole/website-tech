@@ -32,8 +32,8 @@ const AboutPage = ({ data }) => {
               <p>
                 I work in a bootcamp as a web instructor.
                 <br />
-                Web dev bit by bit is a collection of resources I created to
-                help students.
+                Web dev bit by bit is a collection of resources that I found
+                useful for me or for the students I work with.
               </p>
               <p>
                 For the past 5 years I worked in the Intellectual Property
