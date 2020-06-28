@@ -1,5 +1,5 @@
 ---
-title: "Useful links"
+title: "Front end resources 2020"
 tags: ["javascript", "react", "links"]
 published: true
 date: "2020-06-28"
@@ -26,10 +26,6 @@ date: "2020-06-28"
 2020 | [Make a test list](https://joaoforja.com/blog/learn-how-to-make-a-test-list/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_213)
 
 2020 | [How to use React Testing Library tutorial](https://www.robinwieruch.de/react-testing-library)
-
-## Sequelize
-
-2018 | [Sequelize Associations & Magic Methods](https://medium.com/@julianne.marik/sequelize-associations-magic-methods-c72008db91c9)
 
 ## Misc
 
