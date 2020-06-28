@@ -2,23 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-
 import MobilePageLinks from "./MobilePageLinks"
-import SocialLinks from "./SocialLinks"
-// import MobileSocialLinks from "./MobileSocialLinks"
-// import MobileBio from "./MobileBio"
 import "./header.css"
 
 const Header = ({ siteTitle, tagline, author, contacts }) => {
-
   return (
-    <header
-      className="head-main"
-    >
-      <div className="head-elements"
+    <header className="head-main">
+      <div
+        className="head-elements"
         style={{
           margin: `0`,
-          padding: `.75rem`
+          padding: `.75rem`,
         }}
       >
         <h1 className="head-logo ml-4" style={{ margin: 0 }}>
@@ -32,11 +26,8 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
             {siteTitle}
           </Link>
         </h1>
-        <SocialLinks contacts={contacts} />
       </div>
-      {/* <MobileSocialLinks contacts={contacts} /> */}
       <MobilePageLinks />
-      {/* <MobileBio author={author} /> */}
     </header>
   )
 }

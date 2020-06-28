@@ -584,8 +584,7 @@ th:last-child,
 td:last-child {
   padding-right: 0;
 }
-tt
-{
+tt {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
@@ -602,7 +601,7 @@ tt
 }
 
 .main {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .about-mobile-links {
