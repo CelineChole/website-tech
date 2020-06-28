@@ -7,25 +7,17 @@ import "./header.css"
 const Header = ({ siteTitle }) => {
   return (
     <header className="head-main">
-      <div
-        className="head-elements"
-        style={{
-          margin: `0`,
-          padding: `.75rem`,
-        }}
-      >
-        <h1 className="head-logo ml-4" style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </h1>
-      </div>
+      <h1 className="head-logo">
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h1>
       <MobilePageLinks />
     </header>
   )
