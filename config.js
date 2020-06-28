@@ -116,5 +116,12 @@ module.exports = {
       size: 20,
       color: "white",
     },
+    {
+      tag: "terminal",
+      tech: "Terminal",
+      name: "DiTerminal",
+      size: 20,
+      color: "white",
+    },
   ],
 }
