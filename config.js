@@ -7,12 +7,12 @@ module.exports = {
   copyright: "© Built by Céline Cholé",
   author: {
     name: "Céline Cholé",
-    bio: "Full Stack Web Instructor in a non-profit organisation promoting more diversity in the tech world",
+    bio:
+      "Full Stack Web Instructor in a non-profit organisation promoting more diversity in the tech world",
     contacts: {
       linkedin: "https://www.linkedin.com/in/celinechole/",
       github: "https://github.com/CelineChole",
-      stackoverflow:
-        "",
+      stackoverflow: "",
       freecodecamp: "",
       twitter: "",
     },
@@ -65,7 +65,7 @@ module.exports = {
       tech: "Firebase",
       name: "DiFirebase",
       size: 20,
-      color: "orange"
+      color: "orange",
     },
     {
       tag: "angular",
@@ -107,7 +107,14 @@ module.exports = {
       tech: "Bootstrap",
       name: "DiBootstrap",
       size: 20,
-      color: "purple"
+      color: "purple",
+    },
+    {
+      tag: "links",
+      tech: "Links",
+      name: "FiLink",
+      size: 20,
+      color: "white",
     },
   ],
 }
