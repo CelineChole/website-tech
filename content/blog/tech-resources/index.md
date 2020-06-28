@@ -1,18 +1,20 @@
 ---
-title: 'Tech resources'
-tags: ["javascript", "react", ]
+title: "Tech resources"
+tags: ["javascript", "react"]
 published: true
-date: '2019-08-16'
+date: "2019-08-16"
 ---
 
 ## 🎧 Podcasts
 
 ### Full Stack Radio
+
 [Full Stack Radio](http://www.fullstackradio.com/) by Adam Wathan
 
 A podcast for developers interested in building great software products. Every episode, Adam Wathan is joined by a guest to talk about everything from product design and user experience to unit testing and system administration.
 
 ### Base.cs podcast
+
 [Base.cs podcast](https://www.codenewbie.org/basecs)
 
 This podcast is linked to a great [blog](https://medium.com/basecs?source=follow_footer--------------------------follow_footer-).
@@ -28,9 +30,14 @@ This podcast is linked to a great [blog](https://medium.com/basecs?source=follow
 ## Blogs
 
 ### base cs
-[base cs blog](https://medium.com/basecs) by Vaidehi Joshi. 
+
+[base cs blog](https://medium.com/basecs) by Vaidehi Joshi.
 
 She explores the basics of computer science.
+
+### Overracted
+
+[Overracted by Dan Abramov](https://overreacted.io/)
 
 ### React.js Newsletter
 
@@ -42,7 +49,7 @@ She explores the basics of computer science.
 
 [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) by Daniel Shiffman.
 
-Great channel with a strong personality. 
+Great channel with a strong personality.
 
 ### The Net Ninja
 
