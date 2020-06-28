@@ -2,16 +2,22 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
 
+// return the last folder from content/blog (eg. /2020/amazing-post/ to /amazing-post/)
+const slugify = slug => {
+  const regex = /^.*(\/[A-Za-z0-9\-]*\/)$/
+  const matches = slug.match(regex)
+  return matches[1]
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
-    const url = slug.substring(5, slug.length)
+    const slug = slugify(createFilePath({ node, getNode, basePath: `pages` }))
     const postDate = node.frontmatter.date.substring(0, 7)
     createNodeField({
       node,
       name: `slug`,
-      value: `${postDate}${url}`,
+      value: `${postDate}${slug}`,
     })
   }
 }
