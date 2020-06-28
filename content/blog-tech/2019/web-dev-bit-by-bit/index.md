@@ -1,7 +1,6 @@
 ---
 title: "Welcome To Web Dev Bit By Bit"
-tags:
-  ["react", "javascript", "vscode", "git", "css", "github", "node", "bootstrap"]
+tags: ["react", "javascript", "vscode", "git", "github", "node"]
 published: true
 date: "2018-07-01"
 ---

@@ -1,6 +1,6 @@
 ---
-title: "How do I use Todoist"
+title: "Todoist"
 tags: []
-published: true
+published: false
 date: "2020-06-28"
 ---
