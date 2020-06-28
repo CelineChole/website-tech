@@ -1,8 +1,9 @@
 ---
-title: 'Welcome To Web Dev Bit By Bit'
-tags: ["react", "javascript", "vscode", "git", "css", "firebase", "html", "github", "node", "bootstrap"]
+title: "Welcome To Web Dev Bit By Bit"
+tags:
+  ["react", "javascript", "vscode", "git", "css", "github", "node", "bootstrap"]
 published: true
-date: '2018-07-01'
+date: "2018-07-01"
 ---
 
 Web Dev Bit By Bit is a collection of resources built for budding developers.
