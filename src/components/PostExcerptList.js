@@ -27,4 +27,4 @@ const PostExcerptList = ({ posts, getTechTags }) => {
   )
 }
 
-export default PostExcerptList;
+export default PostExcerptList

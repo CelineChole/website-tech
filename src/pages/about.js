@@ -58,7 +58,7 @@ const AboutPage = ({ data }) => {
           </div>
         </div>
       </div>
-        <AboutMobileLinks contacts={data.site.siteMetadata.contacts} />
+      <AboutMobileLinks contacts={data.site.siteMetadata.contacts} />
     </Layout>
   )
 }
