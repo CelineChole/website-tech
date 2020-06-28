@@ -55,6 +55,7 @@ const Layout = ({ children }) => {
                   className="text-info"
                   target="_blank"
                   href="https://celinechole.com/"
+                  rel="noreferrer"
                 >
                   Céline Cholé
                 </a>
@@ -68,6 +69,7 @@ const Layout = ({ children }) => {
                     className="text-info"
                     target="_blank"
                     href="https://www.gatsbyjs.org"
+                    rel="noreferrer"
                   >
                     Gatsby
                   </a>

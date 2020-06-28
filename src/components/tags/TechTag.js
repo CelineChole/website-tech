@@ -18,6 +18,8 @@ const TechTag = props => {
         return React.createElement(FontAwesome[name])
       case "Di":
         return React.createElement(Devicons[name])
+      default:
+        return null
     }
   }
   const icon = getIcon(str)

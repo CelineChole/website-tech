@@ -9,12 +9,18 @@ const SocialLinks = ({ contacts }) => {
         className="text-secondary p-2"
         href={contacts.linkedin}
         target="_blank"
+        rel="noreferrer"
       >
         <span title="Linked In">
           <FaLinkedin size={26} style={{ color: "secondary" }} />
         </span>
       </a>
-      <a className="text-secondary p-2" href={contacts.github} target="_blank">
+      <a
+        className="text-secondary p-2"
+        href={contacts.github}
+        target="_blank"
+        rel="noreferrer"
+      >
         <span title="GitHub">
           <FaGithubSquare size={26} style={{ color: "secondary" }} />
         </span>
@@ -23,6 +29,7 @@ const SocialLinks = ({ contacts }) => {
         className="text-secondary p-2"
         href={contacts.portfolio}
         target="_blank"
+        rel="noreferrer"
       >
         <span title="Portfolio">
           <FaUser size={26} style={{ color: "secondary" }} />
