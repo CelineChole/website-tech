@@ -17,7 +17,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `${postDate}${slug}`,
+      value: `/${postDate}${slug}`,
     })
   }
 }
