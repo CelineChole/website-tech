@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 const siteConfig = require("./config")
 
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content`,
         name: `blog`,
       },
     },
@@ -50,9 +50,9 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
-            }
+            },
           },
-          `gatsby-remark-copy-linked-files`
+          `gatsby-remark-copy-linked-files`,
         ],
       },
     },
@@ -61,9 +61,9 @@ module.exports = {
       options: {
         fonts: [
           `Raleway`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
-        ]
-      }
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
