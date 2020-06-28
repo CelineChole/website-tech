@@ -5,7 +5,7 @@ published: true
 date: "2020-01-10"
 ---
 
-## A bit of ethymology
+## A bit of etymology
 
 Recursion is the act of recurring.
 
@@ -123,10 +123,10 @@ Output: 1
 ```
 
 ```js
-2^4 = 2 * 2^3;
-2^3 = 2 * 2^2;
-2^2 = 2 * 2^1;
-2^1 = 2 * 2^0;
+2 ^ 4 = (2 * 2) ^ 3
+2 ^ 3 = (2 * 2) ^ 2
+2 ^ 2 = (2 * 2) ^ 1
+2 ^ 1 = (2 * 2) ^ 0
 // once our exponent is 0 we know that the value is always 1!
 ```
 
@@ -236,7 +236,7 @@ class Node {
   }
 }
 
-const rangeSumBST = function(root, L, R) {
+const rangeSumBST = function (root, L, R) {
   let sum = 0
   if (!root) {
     return sum

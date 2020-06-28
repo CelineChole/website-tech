@@ -19,10 +19,10 @@ const Tag = ({ pageContext, data }) => {
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`
 
-  const getTechTags = tags => {
+  const getTechTags = (tags) => {
     const techTags = []
     tags.forEach((tag, i) => {
-      labels.forEach(label => {
+      labels.forEach((label) => {
         if (tag === label.tag) {
           techTags.push(
             <TechTag
@@ -62,7 +62,7 @@ const Tag = ({ pageContext, data }) => {
           <i>
             <h2 className="heading">{tagHeader}</h2>
           </i>
-          {posts.map(post => {
+          {posts.map((post) => {
             const tags = post.node.frontmatter.tags
             return (
               <div key={post.node.id} className="container mt-5">
@@ -124,7 +124,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { tags: { in: [$tag] }, published: { eq: true } } }
     ) {
       totalCount
       edges {
