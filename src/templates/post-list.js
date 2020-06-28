@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import "bootstrap/dist/css/bootstrap.css"
 import "../pages/index.css"
 import PostExcerptList from "../components/PostExcerptList"
 
