@@ -3,7 +3,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
 
 // return the last folder from content/blog (eg. /2020/amazing-post/ to /amazing-post/)
-const slugify = slug => {
+const slugify = (slug) => {
   const regex = /^.*(\/[A-Za-z0-9\-]*\/)$/
   const matches = slug.match(regex)
   return matches[1]
@@ -26,7 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: { frontmatter: { published: { eq: true } } }) {
         edges {
           node {
             frontmatter {
@@ -39,7 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     const posts = result.data.allMarkdownRemark.edges
     posts.forEach(({ node }) => {
       createPage({
@@ -56,7 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
     // Tag pages:
     let tags = []
     // Iterate through each post, putting all found tags into `tags`
-    _.each(posts, edge => {
+    _.each(posts, (edge) => {
       if (_.get(edge, "node.frontmatter.tags")) {
         tags = tags.concat(edge.node.frontmatter.tags)
       }
@@ -66,7 +66,7 @@ exports.createPages = ({ graphql, actions }) => {
     tags = _.uniq(tags)
 
     // Make tag pages
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       createPage({
         path: `/tags/${_.kebabCase(tag)}/`,
         component: path.resolve("src/templates/tag.js"),
@@ -78,7 +78,6 @@ exports.createPages = ({ graphql, actions }) => {
 
     const postsPerPage = 6
     const numPages = Math.ceil(posts.length / postsPerPage)
-
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
         path: i === 0 ? `/` : `/${i + 1}`,
