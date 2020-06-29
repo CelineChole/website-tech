@@ -1,13 +1,12 @@
 import React from "react"
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
-
 import "./layout.css"
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
 const AboutMobileLinks = ({ contacts }) => {
   return (
-    <div className="about-mobile-links py-3">
+    <div className="about-mobile-link">
       <a
-        className="text-primary pr-3"
+        style={{ paddingRight: "0.75rem" }}
         href={contacts.linkedin}
         target="_blank"
         rel="noreferrer"
@@ -16,12 +15,7 @@ const AboutMobileLinks = ({ contacts }) => {
           <FaLinkedin size={32} />
         </span>
       </a>
-      <a
-        className="text-secondary"
-        href={contacts.github}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={contacts.github} target="_blank" rel="noreferrer">
         <span title="GitHub">
           <FaGithubSquare size={32} />
         </span>
