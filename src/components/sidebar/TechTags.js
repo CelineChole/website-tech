@@ -2,7 +2,6 @@ import React from "react"
 import TechTag from "../tags/TechTag"
 
 const TechTags = (props) => {
-  console.log(props)
   const labels = props.labels
   const posts = props.posts
 
