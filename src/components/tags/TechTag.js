@@ -1,23 +1,47 @@
 import React from "react"
 import { Link } from "gatsby"
-import * as FontAwesome from "react-icons/fa"
-import * as Devicons from "react-icons/di"
-import * as Fiicons from "react-icons/fi"
+// import * as FontAwesome from "react-icons/fa"
+import {
+  DiJsBadge,
+  DiReact,
+  DiNodejsSmall,
+  DiGitMerge,
+  DiCss3Full,
+  DiFirebase,
+  DiVisualstudio,
+  DiGithubBadge,
+  DiTerminal,
+} from "react-icons/di"
+import { FiLink } from "react-icons/fi"
 
 const TechTag = (props) => {
   const { tag, tech, name, size, color } = props
   const str = name
 
   const getIcon = (icon) => {
-    switch (icon.substring(0, 2)) {
-      case "Fi":
-        return React.createElement(Fiicons[name])
-      case "Fa":
-        return React.createElement(FontAwesome[name])
-      case "Di":
-        return React.createElement(Devicons[name])
+    switch (icon) {
+      case "DiJsBadge":
+        return React.createElement(DiJsBadge)
+      case "DiReact":
+        return React.createElement(DiReact)
+      case "DiNodejsSmall":
+        return React.createElement(DiNodejsSmall)
+      case "DiGitMerge":
+        return React.createElement(DiGitMerge)
+      case "DiCss3Full":
+        return React.createElement(DiCss3Full)
+      case "DiFirebase":
+        return React.createElement(DiFirebase)
+      case "DiVisualstudio":
+        return React.createElement(DiVisualstudio)
+      case "DiGithubBadge":
+        return React.createElement(DiGithubBadge)
+      case "DiTerminal":
+        return React.createElement(DiTerminal)
+      case "FiLink":
+        return React.createElement(FiLink)
       default:
-        return null
+        return React.createElement(DiJsBadge)
     }
   }
   const icon = getIcon(str)

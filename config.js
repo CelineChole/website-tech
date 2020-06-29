@@ -60,13 +60,6 @@ module.exports = {
       color: "orange",
     },
     {
-      tag: "html",
-      tech: "HTML",
-      name: "FaHtml5",
-      size: 20,
-      color: "darkorange",
-    },
-    {
       tag: "vscode",
       tech: "VS Code",
       name: "DiVisualstudio",
