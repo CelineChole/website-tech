@@ -16,14 +16,14 @@
 .profile-img {
   border-radius: 50%;
   box-shadow: 1px 1px 3px;
-}
-
-small,
-div,
-p {
-  font-family: "Raleway";
+  max-width: 100px;
 }
 
 .author-bio {
   font-size: 2vw;
+  margin-top: 0.25rem;
+}
+
+.tagline {
+  color: rgb(162, 160, 160);
 }

@@ -70,6 +70,7 @@ mark {
 }
 small {
   font-size: 80%;
+  font-family: "Raleway";
 }
 sub,
 sup {
@@ -592,6 +593,11 @@ tt {
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
+}
+
+div,
+p {
+  font-family: "Raleway";
 }
 
 @media only screen and (max-width: 480px) {
