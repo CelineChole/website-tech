@@ -44,7 +44,7 @@ const Sidebar = () => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <>
           <div className="sidebar-main border-right">
             <Bio
@@ -54,16 +54,16 @@ const Sidebar = () => {
             <SocialLinks contacts={data.site.siteMetadata.contacts} />
             <div className="page-links">
               <Link to="/">
-                <span className="text-dark d-block py-1">Home</span>
+                <span className="sidebar-links">Home</span>
               </Link>
               <Link to="/about">
-                <span className="text-dark d-block py-1">About</span>
+                <span className="sidebar-links">About</span>
               </Link>
               <Link to="/archive">
-                <span className="text-dark d-block py-1">Archive</span>
+                <span className="sidebar-links">Archive</span>
               </Link>
             </div>
-            <div className="tech-tags mt-4">
+            <div style={{ marginTop: "1.5rem" }}>
               <TechTags
                 labels={data.site.siteMetadata.labels}
                 posts={data.allMarkdownRemark.edges}

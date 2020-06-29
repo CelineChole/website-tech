@@ -13,6 +13,11 @@
   font-family: "Raleway";
 }
 
+.sidebar-links {
+  display: block;
+  padding: 0.25rem 0 0.25rem 0;
+}
+
 .profile-img {
   border-radius: 50%;
   box-shadow: 1px 1px 3px;
