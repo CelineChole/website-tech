@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import "../pages/index.css"
 import PostExcerptList from "../components/PostExcerptList"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -54,18 +53,18 @@ const PostList = (props) => {
         <Sidebar />
         <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
-          <div className="text-center mt-4">
+          <section className="page-navigation">
             {!isFirst && (
-              <Link to={prevPage} rel="prev" style={{ textDecoration: `none` }}>
-                <span className="text-dark">← Previous Page</span>
+              <Link to={prevPage} rel="prev">
+                <span>← Previous Page</span>
               </Link>
             )}
             {!isLast && (
-              <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
-                <span className="text-dark ml-5">Next Page →</span>
+              <Link to={nextPage} rel="next">
+                <span style={{ marginRight: "3rem" }}>Next Page →</span>
               </Link>
             )}
-          </div>
+          </section>
         </div>
       </div>
     </Layout>

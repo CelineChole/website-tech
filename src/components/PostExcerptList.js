@@ -8,8 +8,8 @@ const PostExcerptList = ({ posts, getTechTags }) => {
         const tags = post.node.frontmatter.tags
         return (
           <div key={post.node.id} className="container mt-3">
-            <Link to={post.node.fields.slug} style={{ color: "#343a40" }}>
-              <h2 className="title">{post.node.frontmatter.title}</h2>
+            <Link to={post.node.fields.slug} className="heading">
+              <h2>{post.node.frontmatter.title}</h2>
             </Link>
             <small>
               <i>Posted on {post.node.frontmatter.date}</i>
