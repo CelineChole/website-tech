@@ -6,20 +6,16 @@ import "./blog-post.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
-import CustomShareBlock from "../components/CustomShareBlock"
 
-const BlogPost = props => {
+const BlogPost = (props) => {
   const post = props.data.markdownRemark
   const labels = props.data.site.siteMetadata.labels
-  const siteName = props.data.site.siteMetadata.title
-  const siteUrl = props.data.site.siteMetadata.url
-  const url = `${siteUrl}${props.pageContext.slug}`
   const tags = post.frontmatter.tags
 
-  const getTechTags = tags => {
+  const getTechTags = (tags) => {
     const techTags = []
     tags.forEach((tag, i) => {
-      labels.forEach(label => {
+      labels.forEach((label) => {
         if (tag === label.tag) {
           techTags.push(
             <TechTag
@@ -57,11 +53,6 @@ const BlogPost = props => {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="d-block">{getTechTags(tags)}</div>
-            <CustomShareBlock
-              title={post.frontmatter.title}
-              siteName={siteName}
-              url={url}
-            />
           </div>
         </div>
       </div>
