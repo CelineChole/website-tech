@@ -5,6 +5,9 @@
 .side-social-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  float: left;
 }
 
 .page-links {
@@ -31,4 +34,8 @@
 
 .tagline {
   color: rgb(162, 160, 160);
+}
+
+.social-links {
+  padding: 0.5rem;
 }

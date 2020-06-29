@@ -4,35 +4,35 @@ import "./sidebar.css"
 
 const SocialLinks = ({ contacts }) => {
   return (
-    <div className="side-social-links float-left mt-3 mb-3">
+    <div className="side-social-links">
       <a
-        className="text-secondary p-2"
+        className="social-links"
         href={contacts.linkedin}
         target="_blank"
         rel="noreferrer"
       >
         <span title="Linked In">
-          <FaLinkedin size={26} style={{ color: "secondary" }} />
+          <FaLinkedin size={26} />
         </span>
       </a>
       <a
-        className="text-secondary p-2"
+        className="social-links"
         href={contacts.github}
         target="_blank"
         rel="noreferrer"
       >
         <span title="GitHub">
-          <FaGithubSquare size={26} style={{ color: "secondary" }} />
+          <FaGithubSquare size={26} />
         </span>
       </a>
       <a
-        className="text-secondary p-2"
+        className="social-links"
         href={contacts.portfolio}
         target="_blank"
         rel="noreferrer"
       >
         <span title="Portfolio">
-          <FaUser size={26} style={{ color: "secondary" }} />
+          <FaUser size={26} />
         </span>
       </a>
     </div>
