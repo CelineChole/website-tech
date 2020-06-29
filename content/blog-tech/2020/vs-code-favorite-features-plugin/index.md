@@ -5,7 +5,7 @@ published: false
 date: "2020-07-01"
 ---
 
-I already published 2 posts on VS code: LINKS
+I already published 2 posts on [VS code](http://celine.tech/tags/vscode/). I want to publish an update on the extensions I am using and why plus also talking about the most useful shortcuts and tips.
 
 ## VS code extensions
 
