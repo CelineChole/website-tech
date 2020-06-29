@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
 const AboutMobileLinks = ({ contacts }) => {
   return (
-    <div className="about-mobile-link">
+    <div className="about-mobile-links">
       <a
         style={{ paddingRight: "0.75rem" }}
         href={contacts.linkedin}
