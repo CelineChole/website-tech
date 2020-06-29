@@ -16,7 +16,6 @@ const AboutPage = ({ data }) => {
         </div>
 
         <div className="post-main">
-          <SEO title="About" />
           <h2 className="heading">About</h2>
           <p>
             I am Céline, a full stack web developer that completed a tour of

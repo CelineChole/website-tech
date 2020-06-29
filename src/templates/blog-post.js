@@ -42,18 +42,12 @@ const BlogPost = (props) => {
         </div>
 
         <div className="post-main">
-          <SEO title={post.frontmatter.title} />
-          <div className="mt-3">
-            <h1 className="heading">{post.frontmatter.title}</h1>
-            <small>
-              <i>Published on </i> {post.frontmatter.date}
-            </small>
-            <div
-              className="mt-4"
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
-            <div className="d-block">{getTechTags(tags)}</div>
+          <h1 className="heading">{post.frontmatter.title}</h1>
+          <div className="published-date">
+            Published on {post.frontmatter.date}
           </div>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div>{getTechTags(tags)}</div>
         </div>
       </div>
     </Layout>

@@ -623,8 +623,10 @@ p {
     display: inline-block;
   }
 }
+
 .post-main {
   width: 100%;
+  font-family: "Raleway";
 }
 
 /* CSS clean-up */
@@ -657,6 +659,20 @@ footer {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
 }
+
+/* Blog post */
+.published-date {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.heading {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+/* End blog post */
 
 @media only screen and (max-width: 850px) {
   .sidebar {
