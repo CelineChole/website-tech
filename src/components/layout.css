@@ -7,6 +7,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Raleway", georgia, serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
 }
 article,
 aside,
@@ -20,6 +29,7 @@ nav,
 section,
 summary {
   display: block;
+  font-family: "Raleway";
 }
 audio,
 canvas,
@@ -69,7 +79,6 @@ mark {
 }
 small {
   font-size: 80%;
-  font-family: "Raleway";
   color: #17a2b8;
   display: block;
 }
@@ -198,17 +207,6 @@ html {
 }
 *:after {
   box-sizing: inherit;
-}
-body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
   max-width: 100%;
@@ -397,19 +395,6 @@ figure {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-/* pre {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 1.45rem;
-  font-size: 0.85rem;
-  line-height: 1.42;
-  background: hsla(0, 0%, 0%, 0.04);
-  border-radius: 3px;
-  overflow: auto;
-  word-wrap: normal;
-  padding: 1.45rem;
-} */
 table {
   margin-left: 0;
   margin-right: 0;
@@ -517,7 +502,6 @@ ol li {
 }
 ul li {
   padding-left: 0;
-  font-family: "Raleway";
 }
 li > ol {
   margin-left: 1.45rem;
@@ -596,11 +580,6 @@ tt {
   padding-bottom: 0.2em;
 }
 
-div,
-p {
-  font-family: "Raleway";
-}
-
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
@@ -626,7 +605,6 @@ p {
 
 .post-main {
   width: 100%;
-  font-family: "Raleway";
 }
 
 /* CSS clean-up */
@@ -641,7 +619,6 @@ footer {
 }
 
 .filter-heading {
-  font-family: "Raleway";
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
   font-weight: bold;
@@ -682,6 +659,20 @@ footer {
 }
 
 /* End blog post */
+
+.tag-button {
+  background: rgb(72, 72, 72);
+  border-radius: 0.5rem;
+  border-color: rgb(72, 72, 72);
+  font-size: 0.8rem;
+  color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.tag-container {
+  padding: 0.25rem;
+  display: inline-block;
+}
 
 @media only screen and (max-width: 850px) {
   .sidebar {

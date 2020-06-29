@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./tags.css"
 import * as FontAwesome from "react-icons/fa"
 import * as Devicons from "react-icons/di"
 import * as Fiicons from "react-icons/fi"
