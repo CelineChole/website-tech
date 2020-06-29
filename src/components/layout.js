@@ -46,34 +46,28 @@ const Layout = ({ children }) => {
             }}
           >
             <main className="main">{children}</main>
-            <footer className="text-center">
+            <footer>
               <hr />
-              <p className="d-inline">
+              <div>
                 © {new Date().getFullYear()}{" "}
                 <a
-                  className="text-info"
                   target="_blank"
                   href="https://celinechole.com/"
                   rel="noreferrer"
                 >
                   Céline Cholé
                 </a>
-              </p>
-              <p className="mt-5 text-muted d-inline">
-                <i>
-                  {" "}
-                  Built with
-                  {` `}
-                  <a
-                    className="text-info"
-                    target="_blank"
-                    href="https://www.gatsbyjs.org"
-                    rel="noreferrer"
-                  >
-                    Gatsby
-                  </a>
-                </i>
-              </p>
+                {` `}
+                Built with
+                {` `}
+                <a
+                  target="_blank"
+                  href="https://www.gatsbyjs.org"
+                  rel="noreferrer"
+                >
+                  Gatsby
+                </a>
+              </div>
             </footer>
           </div>
         </>

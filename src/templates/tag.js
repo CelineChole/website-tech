@@ -58,10 +58,8 @@ const Tag = ({ pageContext, data }) => {
           <Sidebar />
         </div>
 
-        <div className="post-list-main">
-          <i>
-            <h2 className="heading">{tagHeader}</h2>
-          </i>
+        <div>
+          <h2 className="filter-heading">{tagHeader}</h2>
           {posts.map((post) => {
             const tags = post.node.frontmatter.tags
             return (

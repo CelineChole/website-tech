@@ -1,24 +1,5 @@
-.post-page-main {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-}
-
 .heading {
   font-family: "Raleway";
-  margin-bottom: 0;
-}
-
-.sidebar {
-  width: 90%;
-}
-
-@media only screen and (max-width: 850px) {
-  .sidebar {
-    display: none;
-  }
-  .post-page-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
 }

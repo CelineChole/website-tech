@@ -12,10 +12,10 @@ const ArchivePage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
   const labels = data.site.siteMetadata.labels
 
-  const getTechTags = tags => {
+  const getTechTags = (tags) => {
     const techTags = []
     tags.forEach((tag, i) => {
-      labels.forEach(label => {
+      labels.forEach((label) => {
         if (tag === label.tag) {
           techTags.push(
             <TechTag
@@ -47,11 +47,11 @@ const ArchivePage = ({ data }) => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="post-list-main">
-          <h2 className="heading mt-3">All Posts</h2>
+        <div>
+          <h2 className="filter-heading">Archive</h2>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
         </div>
       </div>

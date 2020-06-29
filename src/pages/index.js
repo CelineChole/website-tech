@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "./index.css"
 
 import Layout from "../components/layout"
@@ -11,13 +11,11 @@ import PostExcerptList from "../components/PostExcerptList"
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
   const labels = data.site.siteMetadata.labels
-  const currentPage = 1
-  const nextPage = (currentPage + 1).toString()
 
-  const getTechTags = tags => {
+  const getTechTags = (tags) => {
     const techTags = []
     tags.forEach((tag, i) => {
-      labels.forEach(label => {
+      labels.forEach((label) => {
         if (tag === label.tag) {
           techTags.push(
             <TechTag
@@ -49,16 +47,11 @@ const IndexPage = ({ data }) => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="post-list-main">
+        <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
-          <div className="mt-4 text-center">
-            <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
-              <span className="text-dark">Next Page →</span>
-            </Link>
-          </div>
         </div>
       </div>
     </Layout>

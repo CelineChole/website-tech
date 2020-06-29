@@ -70,6 +70,8 @@ mark {
 small {
   font-size: 80%;
   font-family: "Raleway";
+  color: #17a2b8;
+  display: block;
 }
 sub,
 sup {
@@ -625,6 +627,45 @@ p {
   width: 100%;
 }
 
+/* CSS clean-up */
 footer {
-  /* display: block; */
+  display: inline;
+  text-align: center;
+}
+
+.post-excerpt {
+  margin-top: 0.75rem;
+  display: block;
+}
+
+.filter-heading {
+  font-family: "Raleway";
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.sidebar {
+  width: 90%;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.post-page-main,
+.index-main {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+@media only screen and (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+  .post-page-main,
+  .index-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

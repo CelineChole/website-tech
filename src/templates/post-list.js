@@ -2,13 +2,12 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import "../pages/index.css"
 import PostExcerptList from "../components/PostExcerptList"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
 
-const PostList = props => {
+const PostList = (props) => {
   const posts = props.data.allMarkdownRemark.edges
   const labels = props.data.site.siteMetadata.labels
   const { currentPage, numPages } = props.pageContext
@@ -17,10 +16,10 @@ const PostList = props => {
   const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString()
   const nextPage = (currentPage + 1).toString()
 
-  const getTechTags = tags => {
+  const getTechTags = (tags) => {
     const techTags = []
     tags.forEach((tag, i) => {
-      labels.forEach(label => {
+      labels.forEach((label) => {
         if (tag === label.tag) {
           techTags.push(
             <TechTag
@@ -52,10 +51,10 @@ const PostList = props => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="post-list-main">
+        <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
           <div className="text-center mt-4">
             {!isFirst && (
