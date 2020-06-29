@@ -49,9 +49,7 @@ const IndexPage = ({ data }) => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar">
-          <Sidebar />
-        </div>
+        <Sidebar />
         <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
           <div className="mt-4 text-center">

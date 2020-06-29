@@ -45,7 +45,7 @@ const Sidebar = () => {
         }
       `}
       render={(data) => (
-        <>
+        <div className="sidebar">
           <div className="border-right">
             <Bio
               author={data.site.siteMetadata.author}
@@ -70,7 +70,7 @@ const Sidebar = () => {
               />
             </div>
           </div>
-        </>
+        </div>
       )}
     />
   )

@@ -51,9 +51,7 @@ const PostList = (props) => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar">
-          <Sidebar />
-        </div>
+        <Sidebar />
         <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
           <div className="text-center mt-4">

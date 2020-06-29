@@ -11,9 +11,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <SEO title="About" />
       <div className="post-page-main">
-        <div className="sidebar">
-          <Sidebar />
-        </div>
+        <Sidebar />
 
         <div className="post-main">
           <h2 className="heading">About</h2>

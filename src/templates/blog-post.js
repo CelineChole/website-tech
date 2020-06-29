@@ -37,9 +37,7 @@ const BlogPost = (props) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div className="post-page-main">
-        <div className="sidebar">
-          <Sidebar />
-        </div>
+        <Sidebar />
 
         <div className="post-main">
           <h1 className="heading">{post.frontmatter.title}</h1>

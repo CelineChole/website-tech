@@ -42,7 +42,7 @@ const Tag = ({ pageContext, data }) => {
   return (
     <Layout>
       <SEO
-        title="Home"
+        title="web dev bit by bit"
         keywords={[
           `gatsby`,
           `javascript`,
@@ -53,9 +53,7 @@ const Tag = ({ pageContext, data }) => {
         ]}
       />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
-          <Sidebar />
-        </div>
+        <Sidebar />
 
         <div>
           <h2 className="filter-heading">{tagHeader}</h2>
