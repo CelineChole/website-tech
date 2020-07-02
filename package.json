@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Céline Cholé <https://celinechole.com>",
   "dependencies": {
-    "bootstrap": "^4.5.0",
     "gatsby": "^2.23.11",
     "gatsby-image": "^2.4.9",
     "gatsby-plugin-google-analytics": "^2.3.6",

@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { graphql } from "gatsby"
-import "bootstrap/dist/css/bootstrap.css"
 import PostExcerptList from "../components/PostExcerptList"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
