@@ -45,18 +45,27 @@ The important part is happening on line 4: `return x * factorial(x — 1);`.
 The function is actually calling itself again `( factorial(x-1) )`, but with a parameter that is one less than when it was called the first time. This makes it a recursive function.
 
 ```js
-factorial(3) // returns 3 * factorial(2)
-factorial(2) // returns 2 * factorial(1)
-factorial(1) // returns 1 * factorial(0)
-factorial(0) // returns 1
+factorial(3)
+// returns 3 * factorial(2)
+factorial(2)
+// returns 2 * factorial(1)
+factorial(1)
+// returns 1 * factorial(0)
+factorial(0)
+// returns 1
 
 // Now that we've hit our base case,
 // our function will return in order from inner to outer:
 
-factorial(0) // returns 1                 => 1
-factorial(1) // returns 1 * factorial(0)  => 1 * 1
-factorial(2) // returns 2 * factorial(1)  => 2 * 1 * 1
-factorial(3) // returns 3 * factorial(2)  => 3 * 2 * 1 * 1
+factorial(0)
+// returns 1 => 1
+factorial(1)
+// returns 1 * factorial(0) => 1 * 1
+factorial(2)
+// returns 2 * factorial(1) => 2 * 1 * 1
+factorial(3)
+// returns 3 * factorial(2) => 3 * 2 * 1 * 1
+
 // 3 * 2 * 1 * 1 = 6
 ```
 
