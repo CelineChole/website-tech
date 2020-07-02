@@ -7,9 +7,9 @@ date: "2020-06-28"
 
 ## React
 
-2020 | [Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
+- 2020 | [Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
 
-2019 | [React From Scratch: React 16.7 + Webpack 4 + Babel 7 Tutorial](https://www.kyrelldixon.com/blog/react-from-scratch-react-16-7-webpack-4-babel-7-tutorial#adding-html-webpack-plugin-for-script-injection)
+- 2019 | [React From Scratch: React 16.7 + Webpack 4 + Babel 7 Tutorial](https://www.kyrelldixon.com/blog/react-from-scratch-react-16-7-webpack-4-babel-7-tutorial#adding-html-webpack-plugin-for-script-injection)
 
 ## Redux
 

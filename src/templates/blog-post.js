@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
 import TechTag from "../components/tags/TechTag"
+import "../styles/markdown.css"
 
 const BlogPost = (props) => {
   const post = props.data.markdownRemark
@@ -42,7 +43,10 @@ const BlogPost = (props) => {
           <div className="published-date">
             Published on {post.frontmatter.date}
           </div>
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div
+            className="markdown"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
           <div>{getTechTags(tags)}</div>
         </div>
       </div>
