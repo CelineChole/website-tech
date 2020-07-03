@@ -53,13 +53,13 @@ const Sidebar = () => {
             />
             <SocialLinks contacts={data.site.siteMetadata.contacts} />
             <div className="page-links-container">
-              <Link to="/">
+              <Link to="/" activeClassName="nav-link-active">
                 <span className="page-links">Home</span>
               </Link>
-              <Link to="/about">
+              <Link to="/about" activeClassName="nav-link-active">
                 <span className="page-links">About</span>
               </Link>
-              <Link to="/archive">
+              <Link to="/archive" activeClassName="nav-link-active">
                 <span className="page-links">Archive</span>
               </Link>
             </div>
