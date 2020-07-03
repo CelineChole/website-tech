@@ -11,8 +11,7 @@ const AboutPage = ({ data }) => {
       <SEO title="About" />
       <div className="post-page-main">
         <Sidebar />
-
-        <div className="post-main">
+        <div className="about-container">
           <h2 className="heading">About</h2>
           <p>
             I am Céline, a full stack web developer that completed a tour of
@@ -20,10 +19,9 @@ const AboutPage = ({ data }) => {
             business analyst.
           </p>
           <p>
-            I work in a bootcamp as a web instructor.
-            <br />
-            Web dev bit by bit is a collection of resources that I found useful
-            for me or for the students I work with.
+            I work in a bootcamp as a web instructor. Web dev bit by bit is a
+            collection of resources that I found useful for me or for the
+            students I work with.
           </p>
           <p>
             For the past 5 years I worked in the Intellectual Property industry
@@ -34,14 +32,10 @@ const AboutPage = ({ data }) => {
           <p>A bit more about me:</p>
           <p>
             I love reading while drinking a cup of tea (this is my British
-            side).
-            <br />
-            I also love cooking (this must be my French heritage), especially
-            baking.
-            <br />
-            <br />I am also a yoga-addict, practicing nearly every day. If you
-            would like some inspiration to practice, I created a library
-            grouping YouTube videos I have been using:{" "}
+            side). I also love cooking (this must be my French heritage),
+            especially baking. I am also a yoga-addict, practicing nearly every
+            day. If you would like some inspiration to practice, I created a
+            library grouping YouTube videos I have been using:{" "}
             <a target="_blank" href="https://yogilibrary.com/" rel="noreferrer">
               Yogi Library
             </a>

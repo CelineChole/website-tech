@@ -38,7 +38,7 @@ const BlogPost = (props) => {
       <div className="post-page-main">
         <Sidebar />
 
-        <div className="post-main">
+        <div>
           <h1 className="heading">{post.frontmatter.title}</h1>
           <div className="published-date">
             Published on {post.frontmatter.date}

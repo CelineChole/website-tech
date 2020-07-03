@@ -30,10 +30,6 @@
   }
 }
 
-.post-main {
-  width: 100%;
-}
-
 /* CSS clean-up */
 footer {
   text-align: center;
@@ -141,6 +137,10 @@ footer a:hover {
 
 .post-container {
   margin-bottom: 2rem;
+}
+
+.about-container p {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 850px) {
