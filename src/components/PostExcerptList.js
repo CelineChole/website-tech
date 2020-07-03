@@ -7,16 +7,19 @@ const PostExcerptList = ({ posts, getTechTags }) => {
       {posts.map((post) => {
         const tags = post.node.frontmatter.tags
         return (
-          <div key={post.node.id} className="container mt-3">
+          <div key={post.node.id} className="post-container">
             <Link to={post.node.fields.slug} className="heading">
               <h2>{post.node.frontmatter.title}</h2>
             </Link>
-            <small>
+            <div>
               <i>Posted on {post.node.frontmatter.date}</i>
-            </small>
+            </div>
             <div className="post-excerpt">{post.node.excerpt}</div>
-            <br />
-            <Link to={post.node.fields.slug}>Read full post</Link>
+            <div className="read-more-link">
+              <Link className="read-more-link" to={post.node.fields.slug}>
+                Read full post
+              </Link>
+            </div>
             <div style={{ marginTop: "0.75rem" }}>{getTechTags(tags)}</div>
           </div>
         )
