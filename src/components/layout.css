@@ -27,8 +27,18 @@ footer {
 }
 
 .post-excerpt {
-  margin-top: 0.75rem;
+  margin: 0.75rem 0 1rem 0;
   display: block;
+}
+
+.read-more-link a {
+  letter-spacing: 0.025rem;
+  font-weight: 600;
+  color: #3f83f8;
+}
+
+.read-more-link a:hover {
+  text-decoration: underline;
 }
 
 .filter-heading {
@@ -60,6 +70,7 @@ footer {
   margin-bottom: 0.5rem;
   margin-top: 0.75rem;
   color: rgb(52, 58, 64);
+  font-size: 3rem;
 }
 
 .page-navigation {
@@ -75,16 +86,25 @@ footer {
 
 .tag-button {
   background: rgb(72, 72, 72);
-  border-radius: 0.5rem;
   border-color: rgb(72, 72, 72);
+  border-radius: 0.5rem;
   font-size: 0.8rem;
   color: white;
+  padding: 0.0625rem 0.5rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .tag-container {
   padding: 0.25rem;
   display: inline-block;
+}
+
+.tag-button svg {
+  display: inline;
+}
+
+.post-container {
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 850px) {

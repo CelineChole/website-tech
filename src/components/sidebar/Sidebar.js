@@ -46,21 +46,21 @@ const Sidebar = () => {
       `}
       render={(data) => (
         <div className="sidebar">
-          <div className="border-right">
+          <div>
             <Bio
               author={data.site.siteMetadata.author}
               tagline={data.site.siteMetadata.tagline}
             />
             <SocialLinks contacts={data.site.siteMetadata.contacts} />
-            <div className="page-links">
+            <div className="page-links-container">
               <Link to="/">
-                <span className="sidebar-links">Home</span>
+                <span className="page-links">Home</span>
               </Link>
               <Link to="/about">
-                <span className="sidebar-links">About</span>
+                <span className="page-links">About</span>
               </Link>
               <Link to="/archive">
-                <span className="sidebar-links">Archive</span>
+                <span className="page-links">Archive</span>
               </Link>
             </div>
             <div style={{ marginTop: "1.5rem" }}>

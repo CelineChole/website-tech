@@ -4,9 +4,9 @@ import "./sidebar.css"
 
 const SocialLinks = ({ contacts }) => {
   return (
-    <div className="side-social-links">
+    <div className="social-links-container">
       <a
-        className="social-links"
+        className="social-link"
         href={contacts.linkedin}
         target="_blank"
         rel="noreferrer"
@@ -16,7 +16,7 @@ const SocialLinks = ({ contacts }) => {
         </span>
       </a>
       <a
-        className="social-links"
+        className="social-link"
         href={contacts.github}
         target="_blank"
         rel="noreferrer"
@@ -26,7 +26,7 @@ const SocialLinks = ({ contacts }) => {
         </span>
       </a>
       <a
-        className="social-links"
+        className="social-link"
         href={contacts.portfolio}
         target="_blank"
         rel="noreferrer"
