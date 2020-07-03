@@ -10,6 +10,7 @@
   flex: 1 1 0%;
 }
 
+/* hidden on desktop */
 .about-mobile-links {
   display: none;
 }
@@ -18,8 +19,14 @@
   .main {
     padding: 0;
   }
+
   .about-mobile-links {
-    display: inline-block;
+    display: inline;
+  }
+
+  .about-mobile-links svg {
+    margin: 1rem 0 0 0;
+    display: inline;
   }
 }
 
@@ -137,6 +144,12 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 850px) {
+  .main {
+    margin: 0.5rem 1rem 0 1rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
   .sidebar {
     display: none;
   }
