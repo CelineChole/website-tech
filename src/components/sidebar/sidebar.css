@@ -12,6 +12,11 @@
 .page-links:hover {
   color: #3f83f8;
 }
+
+.nav-link-active {
+  font-weight: bold;
+  font-style: italic;
+}
 /* end sidebar */
 
 /* bio */

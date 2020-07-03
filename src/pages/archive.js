@@ -48,7 +48,6 @@ const ArchivePage = ({ data }) => {
       <div className="index-main">
         <Sidebar />
         <div>
-          <h2 className="filter-heading">Archive</h2>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
         </div>
       </div>
