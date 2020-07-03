@@ -32,46 +32,27 @@ const Layout = ({ children }) => {
         }
       `}
       render={(data) => (
-        <>
+        <div className="site-container">
           <Header
             siteTitle={data.site.siteMetadata.title}
             tagline={data.site.siteMetadata.tagline}
             author={data.site.siteMetadata.author}
             contacts={data.site.siteMetadata.contacts}
           />
-          <div
-            style={{
-              margin: `0 auto`,
-              padding: `0px 1.0875rem 1.45rem`,
-              paddingTop: 0,
-            }}
-          >
-            <main className="main">{children}</main>
-            <footer>
-              <hr />
-              <div>
-                © {new Date().getFullYear()}{" "}
-                <a
-                  target="_blank"
-                  href="https://celinechole.com/"
-                  rel="noreferrer"
-                >
-                  Céline Cholé
-                </a>
-                {` `}
-                Built with
-                {` `}
-                <a
-                  target="_blank"
-                  href="https://www.gatsbyjs.org"
-                  rel="noreferrer"
-                >
-                  Gatsby
-                </a>
-              </div>
-            </footer>
-          </div>
-        </>
+          <main className="main">{children}</main>
+          <footer>
+            © {new Date().getFullYear()}{" "}
+            <a target="_blank" href="https://celinechole.com/" rel="noreferrer">
+              Céline Cholé
+            </a>
+            {` `}
+            Built with
+            {` `}
+            <a target="_blank" href="https://www.gatsbyjs.org" rel="noreferrer">
+              Gatsby
+            </a>
+          </footer>
+        </div>
       )}
     />
   )

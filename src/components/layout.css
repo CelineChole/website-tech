@@ -1,6 +1,13 @@
+.site-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
   padding: 1em;
   font-family: "Raleway";
+  flex: 1 1 0%;
 }
 
 .about-mobile-links {
@@ -22,14 +29,25 @@
 
 /* CSS clean-up */
 footer {
-  display: inline;
   text-align: center;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+  font-weight: 500;
+  background-color: whitesmoke;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a:hover {
+  color: #3f83f8;
+  text-decoration: underline;
 }
 
 .post-excerpt {
   margin: 0.75rem 0 1rem 0;
   display: block;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .read-more-link a {
