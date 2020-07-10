@@ -69,3 +69,11 @@
 .markdown table {
   margin-bottom: 1.5rem;
 }
+
+/* Wrap any inline highlights `that are really long`, but don't modify
+   the setting for codeblocks (inside ```), which are rendered in as:
+   <pre><code>...
+*/
+.markdown :not(pre) > code.language-text {
+  white-space: pre-line;
+}
