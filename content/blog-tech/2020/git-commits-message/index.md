@@ -25,4 +25,7 @@ Describe what you did
 
 ## Examples
 
-add
+feat: getting users saved recipes on app render when logged in
+feat: allRecipes loads on search
+fix: error handling on invalid signup
+fix: added linter

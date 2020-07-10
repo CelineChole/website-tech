@@ -17,7 +17,7 @@ My VS code extensions list:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): great for collaboration
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): when you change the opening tag, it automatically update the closing tag.
 - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
@@ -28,7 +28,7 @@ My VS code extensions list:
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss): Tailwind users will appreciate this extension. If you don't know Tailwind CSS yet, I recommend trying it.
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components): syntax highlighting for styled-components.
 
-### Notes taking extensions
+### Note taking extensions
 
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): I like having all the places I wrote Todo grouped in one place. I am keeping all my teaching notes in a repo, it is very convenient to see what needs to be updated.
 - [VS code Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes): great application if you keep your notes in a GitHub repo. It facilitates navigation between notes.
@@ -46,7 +46,7 @@ Some shortcuts I found myself using on a daily basis:
 - **option up/down arrow** -> Moves lines up and down
 - **cmd P** -> navigate between files
 - **ctrl B** -> toggle the left bar
-- **ctrl `** -> open terminal
+- **ctrl `** -> toggle terminal
 - **cmd shift F** -> search in all files
 - **F2** -> rename functions or variables
 
@@ -54,7 +54,7 @@ Some shortcuts I found myself using on a daily basis:
 
 ### Pin tab
 
-This is a new feature -realesed in May 2020 - you can now [Pin tab](https://code.visualstudio.com/updates/v1_46#_pin-tabs). Select the tab you want to pin, right click and select 'pin tab'.
+This is a new feature - released in May 2020 - you can now [Pin tab](https://code.visualstudio.com/updates/v1_46#_pin-tabs). Select the tab you want to pin, right click and select 'pin tab'.
 
 ### Color header
 
@@ -79,7 +79,7 @@ Steps are easy
 
 ### No more compact folders
 
-Since November 2019, by default single child folders [collapsed](https://code.visualstudio.com/updates/v1_41#_compact-folders-in-explorer). I really dislike this feature, if you are like me, you can stop this behavior by adding this code in a setting file.
+Since November 2019, by default single child folders are [collapsed](https://code.visualstudio.com/updates/v1_41#_compact-folders-in-explorer). I really dislike this feature, if you are like me, you can stop this behavior by adding this code in a setting file.
 
 ```js
 {
