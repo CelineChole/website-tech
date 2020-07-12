@@ -34,7 +34,10 @@ const BlogPost = (props) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        thumbnail={post.frontmatter.thumbnail}
+      />
       <div className="post-page-main">
         <Sidebar />
 
@@ -75,6 +78,13 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         tags
+        thumbnail {
+          childImageSharp {
+            sizes(maxWidth: 600) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }

@@ -3,6 +3,7 @@ title: "VS Code tips and tricks"
 tags: ["vscode"]
 published: true
 date: "2020-07-10"
+thumbnail: "./cover.jpg"
 ---
 
 I already published 2 posts on [VS code](http://celine.tech/tags/vscode/) but I want to publish an update on the extensions I am using now and why. I also want to cover some useful shortcuts in VS code and some tips.
