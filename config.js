@@ -1,7 +1,7 @@
 "use strict"
 
 module.exports = {
-  url: "http://celine.tech",
+  url: "https://celine.tech",
   title: "Web Dev Bit by Bit",
   tagline: "Always Be Coding",
   copyright: "© Built by Céline Cholé",
