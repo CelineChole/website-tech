@@ -87,5 +87,12 @@ module.exports = {
       size: 20,
       color: "white",
     },
+    {
+      tag: "productivity",
+      tech: "Productivity",
+      name: "FiHeadphones",
+      size: 20,
+      color: "orangered",
+    },
   ],
 }

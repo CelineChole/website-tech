@@ -12,7 +12,7 @@ import {
   DiGithubBadge,
   DiTerminal,
 } from "react-icons/di"
-import { FiLink } from "react-icons/fi"
+import { FiLink, FiHeadphones } from "react-icons/fi"
 
 const TechTag = (props) => {
   const { tag, tech, name, size, color } = props
@@ -40,6 +40,8 @@ const TechTag = (props) => {
         return React.createElement(DiTerminal)
       case "FiLink":
         return React.createElement(FiLink)
+      case "FiHeadphones":
+        return React.createElement(FiHeadphones)
       default:
         return React.createElement(DiJsBadge)
     }
