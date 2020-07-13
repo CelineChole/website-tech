@@ -17,7 +17,7 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 
 This means that no matter where functions and variables are declared, they are 'moved to the top' of their scope regardless of whether their scope is global or local.
 
-The hoisting mechanism only 'moves' or more accurately puts into memory during the compile phase the declaration. The assignments aren't.
+The hoisting mechanism only 'moves' or more accurately puts into memory during the compile phase the declaration, the assignments aren't.
 
 ## Hoisting variables
 
