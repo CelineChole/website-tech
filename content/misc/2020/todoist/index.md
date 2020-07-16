@@ -1,42 +1,45 @@
 ---
-title: "Todoist organization"
+title: "Stay in control with this Todoist setup"
 tags: ["productivity"]
 published: false
 date: "2020-07-28"
 ---
 
-As a to do list user for multiple years, I've tried many different applications - [Remember the milk](https://www.rememberthemilk.com/), [Wunderlist](https://www.wunderlist.com/), [Habitica](https://habitica.com/static/home). It's been 4 years, I settled with one: [todoist](https://todoist.com/). They build a great product that I use on a daily basis.
+As a to do list user for multiple years, I've tried many different applications - [Remember the milk](https://www.rememberthemilk.com/), [Wunderlist](https://www.wunderlist.com/), [Habitica](https://habitica.com/static/home). After 4 years, I settled with one: [Todoist](https://todoist.com/). They build a great product that I use on a daily basis.
 
-I want to share my todoist organization as it might help you. I am using todoist for my personal life but also for work.
+I want to share my todoist organization as it might help you. I use Todoist to track my personal and work tasks.
 
 I like to keep the default inbox empty. I only use it to quickly dump ideas when I don't have time to add them to the correct project and move them across later. I tend to clean it up on a daily basis.
 
-Todoist offers a flag system to prioritize task, I only rarely use it so won't cover it here.
+_Todoist also offers a flag system to prioritize tasks, I rarely use it so won't cover it here._
 
 ## Projects
 
-I like to keep the high level hierarchy fairly simple and always relevant - the idea behind is that these folders are areas of life that will _always_ exist.
+I use the Todoist projects as 'areas' of life and for actual projects I use sub-folders inside.
+I like to keep the high level hierarchy simple and relevant even if my life changes - new job or new house.
 
-![screenshot todoist projects](todoist-areas.png)
+![screenshot Todoist projects](todoist-areas.png)
 
-Inside these high level areas I add sub-folders for projects. Most projects are limited in time and can be archived at some point. Some might live for a very long time, for example this blog while others will be archived within days or weeks. I typically don't have projects nested inside projects - too many steps to look inside.
+Inside these 'areas' I have sub-folders for each project. Most projects are limited in time and can be archived at some point. Some might live for a very long time (e.g this blog) while others will be archived within days or weeks. I typically don't have projects nested inside projects - too many steps to look inside.
 
 ## Labels
 
-My label system changed overtime, few months ago I went back to my previous system and it's favorite.
+Labels are optional and not limited, very similar to hashtags in Instagram but typically less crazy. Most of my times are labelled.
 
-Tasks are either labeled on the time it takes to achieve them or the action that needs to be taken. Finally I have a standalone tag 'Someday maybe', any task or idea I want to save and consider maybe doing without having a precise time frame.
+My label system has evolved over time and I recently switched back to the very first system I started with - turns out I _was_ right first time!
+
+Tasks are labelled based on either the **_time_** it takes to achieve them, or the **_action_** that needs to be taken. For more more aspirational tasks there is the _someday maybe_ tag.
 
 ### Time
 
-I am a big fan of the [Pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique) - [Pomodoro timer](http://www.tomatotimers.com/) so I tag my task in POM (short for Pomodoro cycle).
+I am a big fan of the [Pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique) - [Pomodoro timer](http://www.tomatotimers.com/) so I tag my task in POMs (short for Pomodoro cycle).
 
 ![screenshot todoist labels](todoist-labels.png)
 
-- **5 min**: any task that can be achieved under 5 min, typically checking a refund you expect or printing a return label.
-- **1 POM**: a task that can be achieved within one Pomodoro (30 min - 25 min work and 5 min break)
-- **2 POM**: a task that can be achieved within two Pomodoros (60 min - 25 min \* 2 + two five-minute break)
-- **\+ POM**: a task that requires more than 60 min
+- **5 min**: any task that can be achieved under 5 minutes, typically checking a refund you expect or printing a return label.
+- **1 POM**: a task that can be achieved within one Pomodoro (30 minutes - 25 minutes work and 5 minutes break)
+- **2 POM**: a task that can be achieved within two Pomodoros (60 minutes - 25 minutes \* 2 + two five-minute break)
+- **\+ POM**: a task that requires more than 60 minutes.
 
 ### Action
 
