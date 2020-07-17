@@ -43,13 +43,38 @@ I am a big fan of the [Pomodoro technique](https://francescocirillo.com/pages/po
 
 ### Action
 
-Most of them are self-explanatory
+Most of my tasks fall into 6 buckets. I am using Todoist to save links of articles I want to read - I tried [Pocket](https://getpocket.com/), [Instapaper](https://www.instapaper.com/u) but in the end always came back to Todoist.
 
 - Email
 - Phone
 - Waiting: when I need to wait for someone in order to complete a task
+- Read
 - Write
 - Research
+
+Some example of tasks and how I would label them
+
+- Email RE onboarding process @1_POM @write @email
+- Refund Rei (\$50) @waiting
+- Book dentist appointment @5_min @phone
+- End of month budget review @1_POM
+- Yearly goals review @2_POM
+- Call grandma @phone
+
+Blog post tasks example - adjusted depending on the post subject
+
+- Blog post - Hoisting in JavaScript
+
+  - Phase 1 @research @2_POM
+  - Phase 2 @research @2_POM
+  - Draft 1 @write @2_POM
+  - Draft 2 @write @2_POM
+  - Review @waiting
+  - Final review @1_POM
+
+- https://kentcdodds.com/blog/how-i-structure-express-apps/ @read
+  Todoist allows you to easily save the link of an article for later retrieval. From Todoist browser extension, create a new task (shortcut Q) and click `Add website as task`.
+  ![Save website to read](todoist-toread.png)
 
 ## Filters
 
@@ -70,3 +95,6 @@ I have 3 filters to accommodate my workflow:
 - All: `##Work 🏢`
 - Next 5 days: `##Work 🏢 & 5 days`
 - Work before a certain date - I work in cycles of 7 weeks so every new cycle I update the date of this query to reflect the next 7 weeks and quickly see what I need to achieve during this cycle: `##Work 🏢 & due before: July 31`
+
+TODO talk about recurring tasks at work and template
+TODO Talk about the possibility to favorite filters so they are acessible at the top of Todoist
