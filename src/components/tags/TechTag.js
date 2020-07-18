@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-// import * as FontAwesome from "react-icons/fa"
+import { FaLightbulb } from "react-icons/fa"
 import {
   DiJsBadge,
   DiReact,
@@ -42,6 +42,8 @@ const TechTag = (props) => {
         return React.createElement(FiLink)
       case "FiHeadphones":
         return React.createElement(FiHeadphones)
+      case "FaLightbulb":
+        return React.createElement(FaLightbulb)
       default:
         return React.createElement(DiJsBadge)
     }
