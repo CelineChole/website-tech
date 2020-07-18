@@ -2,7 +2,7 @@
 title: "Overview of hoisting in JavaScript"
 tags: ["javascript"]
 published: true
-date: "2020-07-15"
+date: "2020-06-30"
 ---
 
 When doing mock technical interviews I often ask this question: _'Can you explain what hoisting is and how it works in Javascript?'_

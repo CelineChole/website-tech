@@ -2,7 +2,7 @@
 title: "Terminal set-up"
 tags: ["terminal"]
 published: true
-date: "2020-05-16"
+date: "2020-02-16"
 ---
 
 ## My terminal set-up
