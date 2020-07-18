@@ -94,5 +94,12 @@ module.exports = {
       size: 20,
       color: "orangered",
     },
+    {
+      tag: "concept",
+      tech: "Concept",
+      name: "FaLightbulb",
+      size: 20,
+      color: "mediumorchid",
+    },
   ],
 }
