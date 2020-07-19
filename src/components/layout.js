@@ -20,7 +20,6 @@ const Layout = ({ children }) => {
           site {
             siteMetadata {
               title
-              tagline
               author
               contacts {
                 github
@@ -34,7 +33,6 @@ const Layout = ({ children }) => {
         <div className="site-container">
           <Header
             siteTitle={data.site.siteMetadata.title}
-            tagline={data.site.siteMetadata.tagline}
             author={data.site.siteMetadata.author}
             contacts={data.site.siteMetadata.contacts}
           />

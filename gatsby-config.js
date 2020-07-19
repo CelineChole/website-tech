@@ -6,7 +6,6 @@ module.exports = {
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
-    tagline: siteConfig.tagline,
     description: `Web dev bit by bit is a collection of resources built for budding developers.`,
     author: siteConfig.author.name,
     contacts: {

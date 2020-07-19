@@ -14,7 +14,6 @@ const Sidebar = () => {
           site {
             siteMetadata {
               title
-              tagline
               author
               contacts {
                 linkedin
@@ -47,10 +46,7 @@ const Sidebar = () => {
       render={(data) => (
         <div className="sidebar">
           <div>
-            <Bio
-              author={data.site.siteMetadata.author}
-              tagline={data.site.siteMetadata.tagline}
-            />
+            <Bio author={data.site.siteMetadata.author} />
             <SocialLinks contacts={data.site.siteMetadata.contacts} />
             <div className="page-links-container">
               <Link to="/" activeClassName="nav-link-active">

@@ -3,7 +3,6 @@
 module.exports = {
   url: "https://celine.tech",
   title: "Web Dev Bit by Bit",
-  tagline: "Always Be Coding",
   copyright: "© Built by Céline Cholé",
   author: {
     name: "Céline Cholé",
