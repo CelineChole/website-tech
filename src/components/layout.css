@@ -97,7 +97,8 @@ footer a:hover {
 }
 
 .page-navigation {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   margin-top: 1.5rem;
 }
 
@@ -141,6 +142,14 @@ footer a:hover {
 
 .about-container p {
   margin-bottom: 1rem;
+}
+
+.about-container a {
+  color: #3f83f8;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 850px) {
