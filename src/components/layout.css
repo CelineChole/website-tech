@@ -143,6 +143,14 @@ footer a:hover {
   margin-bottom: 1rem;
 }
 
+.about-container a {
+  color: #3f83f8;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 850px) {
   .main {
     margin: 0.5rem 1rem 0 1rem;
