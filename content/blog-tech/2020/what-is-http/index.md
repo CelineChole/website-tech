@@ -1,15 +1,19 @@
 ---
-title: "HTTP Overview"
+title: "What is HTTP"
 tags: ["concept"]
-published: false
-date: "2020-07-15"
+published: true
+date: "2020-07-20"
 ---
+
+You used HTTP to get to this page, but what is HTTP? This one-page cheat sheet will give you a high-level understanding of:
+
+- Request/Response
+- What makes up a URL
+- Common status codes
 
 ![](http-request-poster.png)
 
-## Download in PDF
-
-[Download in PDF](/http-request.pdf)
+_[Download in PDF](/http-request.pdf)_
 
 ## Resources
 
