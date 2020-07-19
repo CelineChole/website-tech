@@ -36,6 +36,7 @@ const AboutPage = ({ data }) => {
           </p>
           <div style={{ textAlign: "center" }}>
             <img
+              alt="site-logo"
               src={siteLogo}
               style={{
                 display: "inline",
