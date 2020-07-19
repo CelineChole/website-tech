@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import MobilePageLinks from "./MobilePageLinks"
 import "./header.css"
+import invader from "../../images/gatsby-icon.png"
 
 const Header = ({ siteTitle }) => {
   return (
@@ -14,6 +15,11 @@ const Header = ({ siteTitle }) => {
             color: `white`,
           }}
         >
+          <img
+            alt="invader"
+            src={invader}
+            style={{ width: "3rem", display: "inline", marginRight: "1rem" }}
+          />
           {siteTitle}
         </Link>
       </h1>
