@@ -1,10 +1,10 @@
 /* sidebar */
 .page-links-container {
-  margin-top: 3rem;
-  padding: 1rem 0.5rem;
+  padding-top: 1rem;
 }
 
 .page-links {
+  font-size: 1.25rem;
   display: block;
   padding: 0.25rem 0 0.25rem 0;
 }
@@ -35,20 +35,16 @@
 .tagline {
   color: rgb(162, 160, 160);
   font-style: italic;
+  font-size: 0.9rem;
 }
 /* end bio */
 
 /* social links */
 .social-links-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  float: left;
-}
-
-.social-link {
-  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 7rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-link:hover {

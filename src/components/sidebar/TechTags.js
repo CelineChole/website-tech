@@ -44,12 +44,7 @@ const TechTags = (props) => {
     return techTags
   }
 
-  return (
-    <>
-      <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Tags</div>
-      <div>{getTechTags(tags)}</div>
-    </>
-  )
+  return <div>{getTechTags(tags)}</div>
 }
 
 export default TechTags
