@@ -52,7 +52,11 @@ const IndexPage = ({ data }) => {
         <div>
           <PostExcerptList posts={posts} getTechTags={getTechTags} />
           <div className="mt-4 text-center">
-            <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
+            <Link
+              to={`/${nextPage}`}
+              rel="next"
+              style={{ textDecoration: `none` }}
+            >
               <span className="text-dark">Next Page →</span>
             </Link>
           </div>
