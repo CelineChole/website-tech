@@ -11,7 +11,7 @@ You used HTTP to get to this page, but what is HTTP? This one-page cheat sheet w
 - What makes up a URL
 - Common status codes
 
-![](http-request-poster.png)
+![](http-request.png)
 
 _[Download in PDF](/http-request.pdf)_
 
