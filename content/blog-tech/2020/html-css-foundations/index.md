@@ -12,6 +12,7 @@ I really like Julia Evans' visuals - below are some related to CSS or HTML:
 - CSS units: https://wizardzines.com/comics/units/units.png
 - A few CSS selectors: https://wizardzines.com/comics/selectors/selectors.png
 - The box model: https://wizardzines.com/comics/box-model/box-model.png
+- Flexbox basics: https://wizardzines.com/comics/flexbox-basics/flexbox-basics.png
 
 ## Articles
 
